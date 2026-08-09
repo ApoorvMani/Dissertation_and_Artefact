@@ -1,0 +1,1165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1">
+
+<title>Tokenizer Defence Evaluation - Step 10</title>
+
+<style>
+    :root {
+        --bg: #f5f7fb;
+        --card: #ffffff;
+        --text: #172033;
+        --muted: #667085;
+        --border: #e4e7ec;
+        --accent: #3448c5;
+        --code: #eef2ff;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family:
+            Inter,
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.55;
+    }
+
+    .wrap {
+        max-width: 1450px;
+        margin: auto;
+        padding: 36px 28px 80px;
+    }
+
+    h1 {
+        margin-bottom: 5px;
+        font-size: 34px;
+    }
+
+    h2 {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    h3 {
+        margin-top: 0;
+    }
+
+    .subtitle {
+        color: var(--muted);
+        margin-bottom: 30px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns:
+            repeat(auto-fit, minmax(190px, 1fr));
+        gap: 16px;
+        margin: 26px 0;
+    }
+
+    .metric {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 15px;
+        padding: 18px;
+    }
+
+    .metric .big {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .metric .small {
+        color: var(--muted);
+        font-size: 13px;
+    }
+
+    .note {
+        background: #eef2ff;
+        border-left: 4px solid var(--accent);
+        padding: 16px 19px;
+        border-radius: 9px;
+        margin: 20px 0;
+    }
+
+    .warning {
+        background: #fff7ed;
+        border-left: 4px solid #f97316;
+        padding: 16px 19px;
+        border-radius: 9px;
+        margin: 20px 0;
+    }
+
+    .figure-grid {
+        display: grid;
+        grid-template-columns:
+            repeat(auto-fit, minmax(520px, 1fr));
+        gap: 22px;
+    }
+
+    .figure-card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 18px;
+        overflow: hidden;
+    }
+
+    .figure-card img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .table-wrap {
+        overflow-x: auto;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 8px;
+    }
+
+    .data-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+    }
+
+    .data-table th {
+        text-align: left;
+        background: #f9fafb;
+        border-bottom: 2px solid var(--border);
+        padding: 10px;
+        white-space: nowrap;
+    }
+
+    .data-table td {
+        border-bottom: 1px solid var(--border);
+        padding: 9px 10px;
+        white-space: nowrap;
+    }
+
+    code {
+        background: var(--code);
+        padding: 2px 5px;
+        border-radius: 5px;
+    }
+
+    a {
+        color: var(--accent);
+    }
+
+    .references li {
+        margin-bottom: 13px;
+    }
+
+    @media(max-width: 650px) {
+        .wrap {
+            padding: 20px 14px;
+        }
+
+        .figure-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<h1>Tokenizer Attack × Defence Evaluation</h1>
+
+<div class="subtitle">
+    WordPiece victim · paired clean controls ·
+    bootstrap uncertainty · mechanism-aware evaluation
+</div>
+
+<div class="cards">
+    <div class="metric">
+        <div class="big">936</div>
+        <div class="small">attack instances</div>
+    </div>
+
+    <div class="metric">
+        <div class="big">7</div>
+        <div class="small">defence variants</div>
+    </div>
+
+    <div class="metric">
+        <div class="big">6,552</div>
+        <div class="small">attack × defence rows</div>
+    </div>
+
+    <div class="metric">
+        <div class="big">5,000</div>
+        <div class="small">bootstrap resamples per cell</div>
+    </div>
+
+    <div class="metric">
+        <div class="big">5,250</div>
+        <div class="small">held-out clean controls</div>
+    </div>
+</div>
+
+
+<h2>How the final ASR is measured</h2>
+
+<div class="note">
+    The before/after ASR comparison uses the
+    <strong>same defence-conditioned sample set</strong>.
+    A sample enters the paired ASR calculation only when the
+    clean toxic version remains toxic after the defence.
+    This prevents defence-induced classifier damage from being
+    incorrectly counted as an adversarial success.
+</div>
+
+<p>
+For each retained sample:
+</p>
+
+<p>
+<code>clean + defence → toxic</code><br>
+then compare<br>
+<code>attacked without defence</code>
+against
+<code>attacked + defence</code>.
+</p>
+
+
+<h2>Data-derived findings</h2>
+
+<ul>
+<li><strong>TokenBreak</strong>: lowest paired defended ASR = <strong>46.5%</strong> (Tokenizer translation).</li>
+<li><strong>AdvTok</strong>: lowest paired defended ASR = <strong>0.0%</strong> (Tokenizer translation, Canonical reject, Canonical replace, Unicode sanitiser, NFKC + confusables).</li>
+<li><strong>Unicode compatibility</strong>: lowest paired defended ASR = <strong>0.0%</strong> (Tokenizer translation, NFKC + confusables).</li>
+<li><strong>Unicode homoglyph</strong>: lowest paired defended ASR = <strong>0.0%</strong> (NFKC + confusables).</li>
+<li><strong>Unicode invisible</strong>: lowest paired defended ASR = <strong>0.0%</strong> (Canonical reject, Canonical replace, Unicode sanitiser, NFKC + confusables, Global CPT, Window CPT).</li>
+<li><strong>Unicode reorder</strong>: lowest paired defended ASR = <strong>0.0%</strong> (Unicode sanitiser).</li>
+<li><strong>Defence-induced regressions:</strong> Unicode invisible + Tokenizer translation (-13.4 pp).</li>
+<li><strong>AdvTok interface effect:</strong> Tokenizer translation, Unicode sanitiser, NFKC + confusables discarded supplied adversarial IDs through re-encoding rather than detecting the noncanonical tokenization.</li>
+</ul>
+
+
+<h2>Main attack × defence results</h2>
+
+<div class="table-wrap">
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Attack</th>
+      <th>Defence</th>
+      <th>N retained</th>
+      <th>Undefended ASR</th>
+      <th>Defended ASR</th>
+      <th>ASR reduction</th>
+      <th>95% CI reduction</th>
+      <th>Detect</th>
+      <th>Block</th>
+      <th>Clean keep</th>
+      <th>Re-encode</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TokenBreak</td>
+      <td>Tokenizer translation</td>
+      <td>127</td>
+      <td>95.3%</td>
+      <td>46.5%</td>
+      <td>48.8 pp</td>
+      <td>[40.2, 57.5] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>81.4%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>TokenBreak</td>
+      <td>Canonical reject</td>
+      <td>156</td>
+      <td>96.2%</td>
+      <td>96.2%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>TokenBreak</td>
+      <td>Canonical replace</td>
+      <td>156</td>
+      <td>96.2%</td>
+      <td>96.2%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>TokenBreak</td>
+      <td>Unicode sanitiser</td>
+      <td>156</td>
+      <td>96.2%</td>
+      <td>96.2%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>TokenBreak</td>
+      <td>NFKC + confusables</td>
+      <td>156</td>
+      <td>96.2%</td>
+      <td>96.2%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>TokenBreak</td>
+      <td>Global CPT</td>
+      <td>149</td>
+      <td>96.0%</td>
+      <td>84.6%</td>
+      <td>11.4 pp</td>
+      <td>[6.7, 16.8] pp</td>
+      <td>15.4%</td>
+      <td>15.4%</td>
+      <td>95.5%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>TokenBreak</td>
+      <td>Window CPT</td>
+      <td>151</td>
+      <td>96.7%</td>
+      <td>96.7%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>3.2%</td>
+      <td>3.2%</td>
+      <td>96.8%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>AdvTok</td>
+      <td>Tokenizer translation</td>
+      <td>138</td>
+      <td>95.7%</td>
+      <td>0.0%</td>
+      <td>95.7 pp</td>
+      <td>[92.0, 98.6] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>88.5%</td>
+      <td>100.0%</td>
+    </tr>
+    <tr>
+      <td>AdvTok</td>
+      <td>Canonical reject</td>
+      <td>156</td>
+      <td>96.2%</td>
+      <td>0.0%</td>
+      <td>96.2 pp</td>
+      <td>[92.9, 98.7] pp</td>
+      <td>100.0%</td>
+      <td>100.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>AdvTok</td>
+      <td>Canonical replace</td>
+      <td>156</td>
+      <td>96.2%</td>
+      <td>0.0%</td>
+      <td>96.2 pp</td>
+      <td>[92.9, 98.7] pp</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>AdvTok</td>
+      <td>Unicode sanitiser</td>
+      <td>156</td>
+      <td>96.2%</td>
+      <td>0.0%</td>
+      <td>96.2 pp</td>
+      <td>[92.9, 98.7] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>100.0%</td>
+    </tr>
+    <tr>
+      <td>AdvTok</td>
+      <td>NFKC + confusables</td>
+      <td>156</td>
+      <td>96.2%</td>
+      <td>0.0%</td>
+      <td>96.2 pp</td>
+      <td>[92.9, 98.7] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>100.0%</td>
+    </tr>
+    <tr>
+      <td>AdvTok</td>
+      <td>Global CPT</td>
+      <td>150</td>
+      <td>96.7%</td>
+      <td>2.7%</td>
+      <td>94.0 pp</td>
+      <td>[90.0, 97.3] pp</td>
+      <td>95.5%</td>
+      <td>95.5%</td>
+      <td>96.2%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>AdvTok</td>
+      <td>Window CPT</td>
+      <td>151</td>
+      <td>96.7%</td>
+      <td>84.1%</td>
+      <td>12.6 pp</td>
+      <td>[7.9, 17.9] pp</td>
+      <td>15.4%</td>
+      <td>15.4%</td>
+      <td>96.8%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode compatibility</td>
+      <td>Tokenizer translation</td>
+      <td>127</td>
+      <td>89.0%</td>
+      <td>0.0%</td>
+      <td>89.0 pp</td>
+      <td>[83.5, 93.7] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>81.4%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode compatibility</td>
+      <td>Canonical reject</td>
+      <td>156</td>
+      <td>91.0%</td>
+      <td>91.0%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode compatibility</td>
+      <td>Canonical replace</td>
+      <td>156</td>
+      <td>91.0%</td>
+      <td>91.0%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode compatibility</td>
+      <td>Unicode sanitiser</td>
+      <td>156</td>
+      <td>91.0%</td>
+      <td>91.0%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode compatibility</td>
+      <td>NFKC + confusables</td>
+      <td>156</td>
+      <td>91.0%</td>
+      <td>0.0%</td>
+      <td>91.0 pp</td>
+      <td>[85.9, 95.5] pp</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode compatibility</td>
+      <td>Global CPT</td>
+      <td>149</td>
+      <td>90.6%</td>
+      <td>89.9%</td>
+      <td>0.7 pp</td>
+      <td>[0.0, 2.0] pp</td>
+      <td>3.2%</td>
+      <td>3.2%</td>
+      <td>95.5%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode compatibility</td>
+      <td>Window CPT</td>
+      <td>151</td>
+      <td>92.1%</td>
+      <td>92.1%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>3.2%</td>
+      <td>3.2%</td>
+      <td>96.8%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode homoglyph</td>
+      <td>Tokenizer translation</td>
+      <td>127</td>
+      <td>83.5%</td>
+      <td>74.0%</td>
+      <td>9.4 pp</td>
+      <td>[3.1, 15.7] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>81.4%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode homoglyph</td>
+      <td>Canonical reject</td>
+      <td>156</td>
+      <td>85.9%</td>
+      <td>85.9%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode homoglyph</td>
+      <td>Canonical replace</td>
+      <td>156</td>
+      <td>85.9%</td>
+      <td>85.9%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode homoglyph</td>
+      <td>Unicode sanitiser</td>
+      <td>156</td>
+      <td>85.9%</td>
+      <td>85.9%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode homoglyph</td>
+      <td>NFKC + confusables</td>
+      <td>156</td>
+      <td>85.9%</td>
+      <td>0.0%</td>
+      <td>85.9 pp</td>
+      <td>[80.1, 91.0] pp</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode homoglyph</td>
+      <td>Global CPT</td>
+      <td>149</td>
+      <td>85.9%</td>
+      <td>69.8%</td>
+      <td>16.1 pp</td>
+      <td>[10.7, 22.1] pp</td>
+      <td>19.9%</td>
+      <td>19.9%</td>
+      <td>95.5%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode homoglyph</td>
+      <td>Window CPT</td>
+      <td>151</td>
+      <td>86.8%</td>
+      <td>86.1%</td>
+      <td>0.7 pp</td>
+      <td>[0.0, 2.0] pp</td>
+      <td>4.5%</td>
+      <td>4.5%</td>
+      <td>96.8%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode invisible</td>
+      <td>Tokenizer translation</td>
+      <td>127</td>
+      <td>0.0%</td>
+      <td>13.4%</td>
+      <td>-13.4 pp</td>
+      <td>[-19.7, -7.9] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>81.4%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode invisible</td>
+      <td>Canonical reject</td>
+      <td>156</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode invisible</td>
+      <td>Canonical replace</td>
+      <td>156</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode invisible</td>
+      <td>Unicode sanitiser</td>
+      <td>156</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode invisible</td>
+      <td>NFKC + confusables</td>
+      <td>156</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode invisible</td>
+      <td>Global CPT</td>
+      <td>149</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>1.3%</td>
+      <td>1.3%</td>
+      <td>95.5%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode invisible</td>
+      <td>Window CPT</td>
+      <td>151</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>3.2%</td>
+      <td>3.2%</td>
+      <td>96.8%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode reorder</td>
+      <td>Tokenizer translation</td>
+      <td>127</td>
+      <td>86.6%</td>
+      <td>74.8%</td>
+      <td>11.8 pp</td>
+      <td>[6.3, 18.1] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>81.4%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode reorder</td>
+      <td>Canonical reject</td>
+      <td>156</td>
+      <td>88.5%</td>
+      <td>88.5%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode reorder</td>
+      <td>Canonical replace</td>
+      <td>156</td>
+      <td>88.5%</td>
+      <td>88.5%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode reorder</td>
+      <td>Unicode sanitiser</td>
+      <td>156</td>
+      <td>88.5%</td>
+      <td>0.0%</td>
+      <td>88.5 pp</td>
+      <td>[83.3, 93.6] pp</td>
+      <td>100.0%</td>
+      <td>100.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode reorder</td>
+      <td>NFKC + confusables</td>
+      <td>156</td>
+      <td>88.5%</td>
+      <td>88.5%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode reorder</td>
+      <td>Global CPT</td>
+      <td>149</td>
+      <td>88.6%</td>
+      <td>88.6%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>95.5%</td>
+      <td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Unicode reorder</td>
+      <td>Window CPT</td>
+      <td>151</td>
+      <td>89.4%</td>
+      <td>89.4%</td>
+      <td>0.0 pp</td>
+      <td>[0.0, 0.0] pp</td>
+      <td>3.2%</td>
+      <td>3.2%</td>
+      <td>96.8%</td>
+      <td>0.0%</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<h2>Visual results</h2>
+
+<div class="figure-grid">
+
+        <section class="figure-card">
+            <h3>Defended ASR</h3>
+            <img src="figures/fig01_defended_asr_heatmap.png"
+                 alt="Defended ASR">
+        </section>
+        
+        <section class="figure-card">
+            <h3>ASR reduction</h3>
+            <img src="figures/fig02_asr_reduction_heatmap.png"
+                 alt="ASR reduction">
+        </section>
+        
+        <section class="figure-card">
+            <h3>Attack detection</h3>
+            <img src="figures/fig03_detection_heatmap.png"
+                 alt="Attack detection">
+        </section>
+        
+        <section class="figure-card">
+            <h3>Re-encoding mechanism</h3>
+            <img src="figures/fig04_reencoding_heatmap.png"
+                 alt="Re-encoding mechanism">
+        </section>
+        
+        <section class="figure-card">
+            <h3>Clean retention</h3>
+            <img src="figures/fig05_clean_retention_heatmap.png"
+                 alt="Clean retention">
+        </section>
+        
+        <section class="figure-card">
+            <h3>Bootstrap confidence intervals</h3>
+            <img src="figures/fig06_asr_reduction_bootstrap_ci.png"
+                 alt="Bootstrap confidence intervals">
+        </section>
+        
+        <section class="figure-card">
+            <h3>Held-out clean controls</h3>
+            <img src="figures/fig07_clean_control_rates.png"
+                 alt="Held-out clean controls">
+        </section>
+        
+        <section class="figure-card">
+            <h3>Defence latency</h3>
+            <img src="figures/fig08_defence_latency.png"
+                 alt="Defence latency">
+        </section>
+        
+        <section class="figure-card">
+            <h3>Detection F1</h3>
+            <img src="figures/fig09_detection_f1_heatmap.png"
+                 alt="Detection F1">
+        </section>
+        
+        <section class="figure-card">
+            <h3>Effectiveness / utility trade-off</h3>
+            <img src="figures/fig10_effectiveness_utility_tradeoff.png"
+                 alt="Effectiveness / utility trade-off">
+        </section>
+        
+</div>
+
+
+<h2>Held-out clean controls</h2>
+
+<p>
+Two clean corpora are used:
+<strong>5,000 unseen WikiText lines</strong> and
+<strong>250 Jigsaw comments labelled benign</strong>.
+The WikiText rows used to calibrate CPT are not reused here.
+</p>
+
+<div class="table-wrap">
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Corpus</th>
+      <th>Defence</th>
+      <th>False alarm</th>
+      <th>False block</th>
+      <th>Decision preservation</th>
+      <th>Mean |ΔP|</th>
+      <th>Median latency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Jigsaw benign</td>
+      <td>Tokenizer translation</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>98.8%</td>
+      <td>0.0126</td>
+      <td>0.521 ms</td>
+    </tr>
+    <tr>
+      <td>Jigsaw benign</td>
+      <td>Canonical reject</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0000</td>
+      <td>0.138 ms</td>
+    </tr>
+    <tr>
+      <td>Jigsaw benign</td>
+      <td>Canonical replace</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0000</td>
+      <td>0.174 ms</td>
+    </tr>
+    <tr>
+      <td>Jigsaw benign</td>
+      <td>Unicode sanitiser</td>
+      <td>0.4%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0000</td>
+      <td>0.202 ms</td>
+    </tr>
+    <tr>
+      <td>Jigsaw benign</td>
+      <td>NFKC + confusables</td>
+      <td>3.2%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0000</td>
+      <td>0.156 ms</td>
+    </tr>
+    <tr>
+      <td>Jigsaw benign</td>
+      <td>Global CPT</td>
+      <td>3.6%</td>
+      <td>3.6%</td>
+      <td>96.4%</td>
+      <td>0.0000</td>
+      <td>0.261 ms</td>
+    </tr>
+    <tr>
+      <td>Jigsaw benign</td>
+      <td>Window CPT</td>
+      <td>1.6%</td>
+      <td>1.6%</td>
+      <td>98.4%</td>
+      <td>0.0000</td>
+      <td>0.277 ms</td>
+    </tr>
+    <tr>
+      <td>WikiText held-out</td>
+      <td>Tokenizer translation</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>99.9%</td>
+      <td>0.0031</td>
+      <td>0.869 ms</td>
+    </tr>
+    <tr>
+      <td>WikiText held-out</td>
+      <td>Canonical reject</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0000</td>
+      <td>0.283 ms</td>
+    </tr>
+    <tr>
+      <td>WikiText held-out</td>
+      <td>Canonical replace</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0000</td>
+      <td>0.304 ms</td>
+    </tr>
+    <tr>
+      <td>WikiText held-out</td>
+      <td>Unicode sanitiser</td>
+      <td>0.1%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0000</td>
+      <td>0.556 ms</td>
+    </tr>
+    <tr>
+      <td>WikiText held-out</td>
+      <td>NFKC + confusables</td>
+      <td>0.8%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0000</td>
+      <td>0.469 ms</td>
+    </tr>
+    <tr>
+      <td>WikiText held-out</td>
+      <td>Global CPT</td>
+      <td>1.0%</td>
+      <td>1.0%</td>
+      <td>99.0%</td>
+      <td>0.0000</td>
+      <td>0.490 ms</td>
+    </tr>
+    <tr>
+      <td>WikiText held-out</td>
+      <td>Window CPT</td>
+      <td>1.0%</td>
+      <td>1.0%</td>
+      <td>99.0%</td>
+      <td>0.0000</td>
+      <td>0.534 ms</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<h2>Interpretation of the clean metrics</h2>
+
+<div class="note">
+
+<strong>False alarm rate</strong>:
+clean input is flagged by the defence.
+
+<br><br>
+
+<strong>False block rate</strong>:
+clean input would actually be rejected by the deployment policy.
+
+<br><br>
+
+<strong>Baseline-decision preservation</strong>:
+the input is not blocked and the victim classifier gives the same
+decision it gave before adding the defence.
+
+This is deliberately different from the victim model's own toxicity
+false-positive rate.
+
+</div>
+
+
+<h2>Literature provenance</h2>
+
+<ul class="references">
+
+<li>
+<strong>TokenBreak</strong> —
+Schulz, Yeung & Evans (2025).
+Tokenizer Translation is based on the paper's
+Unigram-to-original-tokenizer defence.
+<a href="https://arxiv.org/abs/2506.07948">
+arXiv:2506.07948
+</a>
+</li>
+
+<li>
+<strong>Adversarial Tokenization</strong> —
+Geh, Shao & Van den Broeck, ACL 2025.
+The paper motivates retokenisation and string-only interfaces
+as defences against noncanonical token sequences.
+<a href="https://aclanthology.org/2025.acl-long.1012/">
+ACL Anthology
+</a>
+</li>
+
+<li>
+<strong>Bad Characters</strong> —
+Boucher et al.
+Provides the Unicode adversarial-input motivation behind the
+sanitisation family.
+<a href="https://arxiv.org/abs/2106.09898">
+arXiv:2106.09898
+</a>
+</li>
+
+<li>
+<strong>Unicode UTS #39</strong> —
+used as the standards basis for confusable-character detection.
+<a href="https://www.unicode.org/reports/tr39/">
+Unicode Security Mechanisms
+</a>
+</li>
+
+<li>
+<strong>Broken-Token</strong> —
+Zychlinski & Kainan.
+Provides global and sliding-window CPT filtering.
+The WordPiece calibration strategy used in this dissertation
+is explicitly an adaptation rather than an exact reproduction.
+<a href="https://arxiv.org/abs/2510.26847">
+arXiv:2510.26847
+</a>
+</li>
+
+<li>
+<strong>Bootstrap uncertainty</strong> —
+Efron (1979), Bootstrap Methods: Another Look at the Jackknife.
+The analysis uses paired percentile bootstrap confidence intervals.
+</li>
+
+</ul>
+
+
+<h2>Important interpretation warning</h2>
+
+<div class="warning">
+
+A low defended ASR does not automatically mean that the named
+defence detected the attack.
+
+For AdvTok in particular,
+<code>reencode = 100%</code> means the attacker-supplied token IDs
+were discarded because the defence reconstructed input from the
+visible string.
+
+That is an <strong>interface effect</strong>, not attack detection.
+
+The detection-rate and re-encoding plots must therefore be read
+alongside the defended-ASR plot.
+
+</div>
+
+
+<h2>Scope</h2>
+
+<p>
+These results currently establish the main experiment for one
+WordPiece toxicity classifier. They do not yet establish
+cross-tokenizer or cross-model generality.
+Those are separate experiments.
+</p>
+
+</div>
+</body>
+</html>

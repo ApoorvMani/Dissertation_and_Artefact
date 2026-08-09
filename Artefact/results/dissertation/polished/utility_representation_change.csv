@@ -1,0 +1,8 @@
+defence,Code,URLs,Emoji,Misspelling,Non-English,Mixed-script
+Tokenizer translation,100.0,100.0,76.0,100.0,100.0,100.0
+Canonical reject,0.0,0.0,0.0,0.0,0.0,0.0
+Canonical replace,0.0,0.0,0.0,0.0,0.0,0.0
+Unicode sanitiser,0.0,0.0,0.0,0.0,0.0,0.0
+NFKC + confusables,0.0,0.0,0.0,1.0,39.0,37.0
+Global CPT,0.0,0.0,0.0,0.0,0.0,0.0
+Window CPT,0.0,0.0,0.0,0.0,0.0,0.0

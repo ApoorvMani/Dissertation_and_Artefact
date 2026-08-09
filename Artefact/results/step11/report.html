@@ -1,0 +1,910 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+>
+
+<title>
+Complex Legitimate-Text Utility Stress Test
+</title>
+
+<style>
+
+:root {
+    --bg: #f5f7fb;
+    --card: white;
+    --text: #172033;
+    --muted: #667085;
+    --border: #e4e7ec;
+    --accent: #3448c5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+    line-height: 1.55;
+}
+
+.wrap {
+    max-width: 1450px;
+    margin: auto;
+    padding: 36px 28px 80px;
+}
+
+h1 {
+    margin-bottom: 6px;
+}
+
+h2 {
+    margin-top: 48px;
+}
+
+.subtitle {
+    color: var(--muted);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(160px, 1fr)
+        );
+    gap: 15px;
+    margin: 28px 0;
+}
+
+.metric {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 17px;
+}
+
+.big {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.small {
+    color: var(--muted);
+}
+
+.note {
+    margin: 20px 0;
+    padding: 16px 18px;
+    background: #eef2ff;
+    border-left:
+        4px solid var(--accent);
+    border-radius: 9px;
+}
+
+.warning {
+    margin: 20px 0;
+    padding: 16px 18px;
+    background: #fff7ed;
+    border-left:
+        4px solid #f97316;
+    border-radius: 9px;
+}
+
+.figure-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(500px, 1fr)
+        );
+    gap: 22px;
+}
+
+.figure-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    padding: 18px;
+}
+
+.figure-card img {
+    display: block;
+    width: 100%;
+}
+
+.table-wrap {
+    overflow-x: auto;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 8px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.data-table th {
+    text-align: left;
+    padding: 10px;
+    background: #f9fafb;
+    border-bottom:
+        2px solid var(--border);
+    white-space: nowrap;
+}
+
+.data-table td {
+    padding: 9px 10px;
+    border-bottom:
+        1px solid var(--border);
+    white-space: nowrap;
+}
+
+code {
+    background: #eef2ff;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+@media(max-width: 650px) {
+
+    .wrap {
+        padding: 20px 14px;
+    }
+
+    .figure-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+<h1>
+Complex Legitimate-Text Utility Stress Test
+</h1>
+
+<div class="subtitle">
+600 legitimate complex inputs × 7 tokenizer defences
+</div>
+
+<div class="cards">
+
+        <div class="metric">
+            <div class="big">100</div>
+            <div class="small">Code</div>
+        </div>
+        
+        <div class="metric">
+            <div class="big">100</div>
+            <div class="small">URLs</div>
+        </div>
+        
+        <div class="metric">
+            <div class="big">100</div>
+            <div class="small">Emoji</div>
+        </div>
+        
+        <div class="metric">
+            <div class="big">100</div>
+            <div class="small">Misspellings</div>
+        </div>
+        
+        <div class="metric">
+            <div class="big">100</div>
+            <div class="small">Non-English</div>
+        </div>
+        
+        <div class="metric">
+            <div class="big">100</div>
+            <div class="small">Mixed-script</div>
+        </div>
+        
+</div>
+
+
+<h2>Why this experiment exists</h2>
+
+<div class="note">
+
+The earlier WikiText and Jigsaw clean controls mostly measure
+ordinary English prose.
+
+This experiment instead asks whether a defence that works against
+tokenization attacks accidentally harms legitimate inputs containing
+code, URLs, emoji, typos, non-English scripts or multiple scripts.
+
+</div>
+
+
+<h2>What “utility” means here</h2>
+
+<p>
+For every input we first obtain the victim's ordinary canonical
+prediction.
+We then apply each defence to the <strong>same exact input</strong>.
+</p>
+
+<p>
+The main metric is:
+</p>
+
+<p>
+<code>
+not blocked AND classifier decision unchanged
+</code>
+</p>
+
+<div class="warning">
+
+The victim is an English toxicity classifier.
+Therefore its prediction on Chinese, Arabic, code, URLs, etc. is
+<strong>not treated as semantic ground truth</strong>.
+
+For these categories we measure defence-induced stability,
+not classification accuracy.
+
+</div>
+
+
+<h2>Dataset provenance</h2>
+
+<ul>
+
+<li>
+<strong>Code:</strong>
+100 real Python functions from CodeSearchNet.
+</li>
+
+<li>
+<strong>URLs:</strong>
+100 real GitHub source URLs from CodeSearchNet metadata.
+</li>
+
+<li>
+<strong>Emoji:</strong>
+100 GoEmotions Reddit comments containing emoji;
+neutral examples are preferred.
+</li>
+
+<li>
+<strong>Misspellings:</strong>
+100 constructed one-typo versions of Jigsaw benign comments.
+</li>
+
+<li>
+<strong>Non-English:</strong>
+100 FLORES sentences across Hindi, Arabic, Russian,
+Chinese and Bengali.
+</li>
+
+<li>
+<strong>Mixed-script:</strong>
+100 constructed but legitimate bilingual FLORES pairs:
+English plus an aligned translation.
+</li>
+
+</ul>
+
+
+<h2>Results</h2>
+
+<div class="table-wrap">
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Category</th>
+      <th>Defence</th>
+      <th>Trigger</th>
+      <th>Block</th>
+      <th>Representation changed</th>
+      <th>Decision preserved</th>
+      <th>Label flip</th>
+      <th>Mean |ΔP|</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Code</td>
+      <td>Tokenizer translation</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>Canonical reject</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>Canonical replace</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>Unicode sanitiser</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>NFKC + confusables</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>Global CPT</td>
+      <td>18.0%</td>
+      <td>18.0%</td>
+      <td>0.0%</td>
+      <td>82.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>Window CPT</td>
+      <td>49.0%</td>
+      <td>49.0%</td>
+      <td>0.0%</td>
+      <td>51.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>URLs</td>
+      <td>Tokenizer translation</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0002</td>
+    </tr>
+    <tr>
+      <td>URLs</td>
+      <td>Canonical reject</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>URLs</td>
+      <td>Canonical replace</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>URLs</td>
+      <td>Unicode sanitiser</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>URLs</td>
+      <td>NFKC + confusables</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>URLs</td>
+      <td>Global CPT</td>
+      <td>100.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>URLs</td>
+      <td>Window CPT</td>
+      <td>7.0%</td>
+      <td>7.0%</td>
+      <td>0.0%</td>
+      <td>93.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Emoji</td>
+      <td>Tokenizer translation</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>76.0%</td>
+      <td>97.0%</td>
+      <td>3.0%</td>
+      <td>0.0268</td>
+    </tr>
+    <tr>
+      <td>Emoji</td>
+      <td>Canonical reject</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Emoji</td>
+      <td>Canonical replace</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Emoji</td>
+      <td>Unicode sanitiser</td>
+      <td>8.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Emoji</td>
+      <td>NFKC + confusables</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Emoji</td>
+      <td>Global CPT</td>
+      <td>12.0%</td>
+      <td>12.0%</td>
+      <td>0.0%</td>
+      <td>88.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Emoji</td>
+      <td>Window CPT</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Misspellings</td>
+      <td>Tokenizer translation</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>99.0%</td>
+      <td>1.0%</td>
+      <td>0.0129</td>
+    </tr>
+    <tr>
+      <td>Misspellings</td>
+      <td>Canonical reject</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Misspellings</td>
+      <td>Canonical replace</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Misspellings</td>
+      <td>Unicode sanitiser</td>
+      <td>1.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Misspellings</td>
+      <td>NFKC + confusables</td>
+      <td>3.0%</td>
+      <td>0.0%</td>
+      <td>1.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Misspellings</td>
+      <td>Global CPT</td>
+      <td>5.0%</td>
+      <td>5.0%</td>
+      <td>0.0%</td>
+      <td>95.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Misspellings</td>
+      <td>Window CPT</td>
+      <td>1.0%</td>
+      <td>1.0%</td>
+      <td>0.0%</td>
+      <td>99.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Non-English</td>
+      <td>Tokenizer translation</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>96.0%</td>
+      <td>4.0%</td>
+      <td>0.0527</td>
+    </tr>
+    <tr>
+      <td>Non-English</td>
+      <td>Canonical reject</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Non-English</td>
+      <td>Canonical replace</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Non-English</td>
+      <td>Unicode sanitiser</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Non-English</td>
+      <td>NFKC + confusables</td>
+      <td>52.0%</td>
+      <td>0.0%</td>
+      <td>39.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0013</td>
+    </tr>
+    <tr>
+      <td>Non-English</td>
+      <td>Global CPT</td>
+      <td>100.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Non-English</td>
+      <td>Window CPT</td>
+      <td>80.0%</td>
+      <td>80.0%</td>
+      <td>0.0%</td>
+      <td>20.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Mixed-script</td>
+      <td>Tokenizer translation</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0113</td>
+    </tr>
+    <tr>
+      <td>Mixed-script</td>
+      <td>Canonical reject</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Mixed-script</td>
+      <td>Canonical replace</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Mixed-script</td>
+      <td>Unicode sanitiser</td>
+      <td>1.0%</td>
+      <td>0.0%</td>
+      <td>0.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Mixed-script</td>
+      <td>NFKC + confusables</td>
+      <td>55.0%</td>
+      <td>0.0%</td>
+      <td>37.0%</td>
+      <td>100.0%</td>
+      <td>0.0%</td>
+      <td>0.0001</td>
+    </tr>
+    <tr>
+      <td>Mixed-script</td>
+      <td>Global CPT</td>
+      <td>96.0%</td>
+      <td>96.0%</td>
+      <td>0.0%</td>
+      <td>4.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Mixed-script</td>
+      <td>Window CPT</td>
+      <td>80.0%</td>
+      <td>80.0%</td>
+      <td>0.0%</td>
+      <td>20.0%</td>
+      <td>0.0%</td>
+      <td>0.0000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<h2>Visual results</h2>
+
+<div class="figure-grid">
+
+        <section class="figure-card">
+            <h3>Defence trigger rate</h3>
+            <img
+                src="figures/fig01_trigger_rate.png"
+                alt="Defence trigger rate"
+            >
+        </section>
+        
+        <section class="figure-card">
+            <h3>Legitimate block rate</h3>
+            <img
+                src="figures/fig02_block_rate.png"
+                alt="Legitimate block rate"
+            >
+        </section>
+        
+        <section class="figure-card">
+            <h3>Operational preservation</h3>
+            <img
+                src="figures/fig03_operational_preservation.png"
+                alt="Operational preservation"
+            >
+        </section>
+        
+        <section class="figure-card">
+            <h3>Representation changes</h3>
+            <img
+                src="figures/fig04_representation_change.png"
+                alt="Representation changes"
+            >
+        </section>
+        
+        <section class="figure-card">
+            <h3>Probability shift</h3>
+            <img
+                src="figures/fig05_probability_shift.png"
+                alt="Probability shift"
+            >
+        </section>
+        
+        <section class="figure-card">
+            <h3>Token-count change</h3>
+            <img
+                src="figures/fig06_token_count_ratio.png"
+                alt="Token-count change"
+            >
+        </section>
+        
+        <section class="figure-card">
+            <h3>Latency</h3>
+            <img
+                src="figures/fig07_latency.png"
+                alt="Latency"
+            >
+        </section>
+        
+        <section class="figure-card">
+            <h3>Overall utility cost</h3>
+            <img
+                src="figures/fig08_overall_utility_cost.png"
+                alt="Overall utility cost"
+            >
+        </section>
+        
+</div>
+
+
+<h2>How to interpret the metrics</h2>
+
+<div class="note">
+
+<strong>Trigger:</strong>
+the defence explicitly marked or transformed the legitimate input.
+
+<br><br>
+
+<strong>Block:</strong>
+the legitimate input would be rejected by the deployment policy.
+
+<br><br>
+
+<strong>Representation changed:</strong>
+the token IDs reaching the victim differ from ordinary canonical
+WordPiece encoding.
+
+<br><br>
+
+<strong>Decision preserved:</strong>
+the defence did not block the input and did not change the victim's
+original classification.
+
+<br><br>
+
+<strong>Label flip:</strong>
+among inputs that still reached the classifier, the defence changed
+the classifier's binary decision.
+
+</div>
+
+
+<h2>Literature rationale</h2>
+
+<ul>
+
+<li>
+<strong>Unicode UTS #39:</strong>
+distinguishes mixed-script and confusable text and provides
+mixed-script/confusable detection mechanisms.
+</li>
+
+<li>
+<strong>Bad Characters:</strong>
+demonstrates the security relevance of invisible characters,
+homoglyphs and Unicode reordering, motivating sanitisation.
+</li>
+
+<li>
+<strong>Broken-Token:</strong>
+reports that CPT behaviour changes for multilingual inputs,
+particularly Chinese and Arabic, making multilingual clean testing
+important.
+</li>
+
+<li>
+<strong>CodeSearchNet:</strong>
+provides real open-source program text rather than synthetic code.
+</li>
+
+<li>
+<strong>GoEmotions:</strong>
+provides naturally occurring Reddit language from which
+emoji-containing legitimate inputs are sampled.
+</li>
+
+<li>
+<strong>FLORES:</strong>
+provides professionally translated aligned multilingual text.
+</li>
+
+</ul>
+
+
+<h2>Scope</h2>
+
+<p>
+This is a structured utility stress test rather than a population
+estimate of all possible user input.
+The misspelling and mixed-script categories are constructed by design
+and are explicitly labelled as such in the exported dataset.
+</p>
+
+</div>
+</body>
+</html>

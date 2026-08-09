@@ -1,0 +1,5 @@
+tokenizer_group,eligible_n,total_n,eligible_percent
+WordPiece,156,250,62.4
+BPE,214,250,85.6
+Unigram,242,250,96.8
+Shared all three,155,250,62.0

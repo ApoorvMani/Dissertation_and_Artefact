@@ -1,0 +1,15 @@
+corpus,defence,n,baseline_toxic_rate,false_alarm_rate,false_alarm_ci_low,false_alarm_ci_high,false_block_rate,false_block_ci_low,false_block_ci_high,operational_preservation,operational_preservation_ci_low,operational_preservation_ci_high,label_agreement_when_scored,defended_toxic_rate_when_scored,mean_abs_probability_shift,jigsaw_benign_usable_rate,median_defence_latency_ms
+jigsaw_benign,tokenizer_translation,250,0.032,0.0,0.0,0.0,0.0,0.0,0.0,0.988,0.972,1.0,0.988,0.02,0.01255424629850313,0.98,0.5213000004005153
+jigsaw_benign,canonical_reject,250,0.032,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.032,0.0,0.968,0.13824999950884376
+jigsaw_benign,canonical_replace,250,0.032,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.032,0.0,0.968,0.17409999964002054
+jigsaw_benign,unicode_sanitise,250,0.032,0.004,0.0,0.012,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.032,0.0,0.968,0.2022499993472593
+jigsaw_benign,nfkc_confusable,250,0.032,0.032,0.012,0.056,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.032,2.082553692162037e-07,0.968,0.15639999946870375
+jigsaw_benign,cpt_global,250,0.032,0.036,0.016,0.06,0.036,0.016,0.06,0.964,0.94,0.984,1.0,0.032,0.0,0.932,0.26140000045415945
+jigsaw_benign,cpt_window,250,0.032,0.016,0.004,0.036,0.016,0.004,0.032,0.984,0.968,0.996,1.0,0.032,0.0,0.952,0.277299999652314
+wikitext_heldout,tokenizer_translation,5000,0.0014,0.0,0.0,0.0,0.0,0.0,0.0,0.9988,0.9978,0.9996,0.9988,0.0006,0.0031211195668205617,,0.8691000002727378
+wikitext_heldout,canonical_reject,5000,0.0014,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0014,0.0,,0.2831999991030898
+wikitext_heldout,canonical_replace,5000,0.0014,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0014,0.0,,0.3035000008821953
+wikitext_heldout,unicode_sanitise,5000,0.0014,0.0008,0.0002,0.0016,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0014,0.0,,0.556049999431707
+wikitext_heldout,nfkc_confusable,5000,0.0014,0.0084,0.006,0.011,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0014,7.332221628166735e-06,,0.4688499993790174
+wikitext_heldout,cpt_global,5000,0.0014,0.0104,0.0076,0.0134,0.0104,0.0078,0.0134,0.9896,0.9868,0.9924,1.0,0.0014,0.0,,0.48969999807013664
+wikitext_heldout,cpt_window,5000,0.0014,0.0104,0.0076,0.0132,0.0104,0.0078,0.0134,0.9896,0.9866,0.9922,1.0,0.0014,0.0,,0.5337500006135087

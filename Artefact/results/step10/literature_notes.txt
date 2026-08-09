@@ -1,0 +1,82 @@
+LITERATURE AND METHOD PROVENANCE
+================================
+
+1. TokenBreak
+   Kasimir Schulz, Kenneth Yeung, Kieran Evans.
+   TokenBreak: Bypassing Text Classification Models Through Token Manipulation.
+   arXiv:2506.07948, 2025.
+   https://arxiv.org/abs/2506.07948
+
+   Relevant defence:
+   Tokenizer Translation / MapUnigramToWordPiece.
+
+   Project adaptation:
+   XLNet supplies the Unigram segmentation while the victim is an uncased
+   DistilBERT WordPiece classifier.
+
+
+2. Adversarial Tokenization
+   Renato Lui Geh, Zilei Shao, Guy Van den Broeck.
+   Adversarial Tokenization.
+   ACL 2025.
+   https://aclanthology.org/2025.acl-long.1012/
+
+   Relevant defence discussion:
+   Retokenize inputs and/or restrict the interface to strings.
+
+   Project variants:
+   - canonical_reject
+   - canonical_replace
+
+   canonical_replace is closest to retokenization.
+   canonical_reject is a stricter deployment-policy variant.
+
+
+3. Bad Characters
+   Nicholas Boucher, Ilia Shumailov, Ross Anderson, Nicolas Papernot.
+   Bad Characters: Imperceptible NLP Attacks.
+   IEEE Symposium on Security and Privacy.
+   https://arxiv.org/abs/2106.09898
+
+   Project relevance:
+   motivates defence against invisible characters, homoglyphs,
+   Unicode control characters and reordering attacks.
+
+
+4. Unicode Technical Standard #39
+   Unicode Security Mechanisms.
+   https://www.unicode.org/reports/tr39/
+
+   Project relevance:
+   confusable-character mapping/detection.
+
+
+5. Broken-Token
+   Shaked Zychlinski, Yuval Kainan.
+   Broken-Token: Filtering Obfuscated Prompts by Counting Characters-Per-Token.
+   arXiv:2510.26847, 2025.
+   https://arxiv.org/abs/2510.26847
+
+   Project relevance:
+   - global characters-per-token filtering
+   - sliding-window CPT filtering
+
+   Important project adaptations:
+   - paper focuses on BPE; this project evaluates WordPiece
+   - paper optimises thresholds using regular + obfuscated data
+   - project threshold is calibrated using CLEAN WikiText only
+   - target calibration FPR = 1%
+   - 5-token sliding CPT degenerated on WordPiece
+   - project therefore uses a documented 10-token WordPiece adaptation
+
+
+6. Bootstrap statistics
+   Bradley Efron.
+   Bootstrap Methods: Another Look at the Jackknife.
+   Annals of Statistics, 1979.
+
+   Project use:
+   95% percentile bootstrap confidence intervals.
+
+   For paired ASR comparisons, clean and attacked outcomes are resampled
+   together so the correspondence between the two observations is preserved.

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="653.22pt" height="244.368pt" viewBox="0 0 653.22 244.368" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-08T17:01:05.210564</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 244.368 
+L 653.22 244.368 
+L 653.22 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 51.595714 122.184 
+L 143.267143 122.184 
+L 234.938571 122.184 
+L 326.61 122.184 
+L 418.281429 122.184 
+L 509.952857 122.184 
+L 601.624286 122.184 
+" clip-path="url(#pd2ba7e0aa6)" style="fill: none; stroke: #0072b2; stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="mac6e97b007" d="M 0 3.5 
+C 0.928211 3.5 1.81853 3.131218 2.474874 2.474874 
+C 3.131218 1.81853 3.5 0.928211 3.5 0 
+C 3.5 -0.928211 3.131218 -1.81853 2.474874 -2.474874 
+C 1.81853 -3.131218 0.928211 -3.5 0 -3.5 
+C -0.928211 -3.5 -1.81853 -3.131218 -2.474874 -2.474874 
+C -3.131218 -1.81853 -3.5 -0.928211 -3.5 0 
+C -3.5 0.928211 -3.131218 1.81853 -2.474874 2.474874 
+C -1.81853 3.131218 -0.928211 3.5 0 3.5 
+z
+" style="stroke: #0072b2"/>
+    </defs>
+    <g clip-path="url(#pd2ba7e0aa6)">
+     <use xlink:href="#mac6e97b007" x="51.595714" y="122.184" style="fill: #0072b2; stroke: #0072b2"/>
+     <use xlink:href="#mac6e97b007" x="143.267143" y="122.184" style="fill: #0072b2; stroke: #0072b2"/>
+     <use xlink:href="#mac6e97b007" x="234.938571" y="122.184" style="fill: #0072b2; stroke: #0072b2"/>
+     <use xlink:href="#mac6e97b007" x="326.61" y="122.184" style="fill: #0072b2; stroke: #0072b2"/>
+     <use xlink:href="#mac6e97b007" x="418.281429" y="122.184" style="fill: #0072b2; stroke: #0072b2"/>
+     <use xlink:href="#mac6e97b007" x="509.952857" y="122.184" style="fill: #0072b2; stroke: #0072b2"/>
+     <use xlink:href="#mac6e97b007" x="601.624286" y="122.184" style="fill: #0072b2; stroke: #0072b2"/>
+    </g>
+   </g>
+   <g id="line2d_2">
+    <path d="M 51.595714 122.184 
+L 51.595714 85.9632 
+" clip-path="url(#pd2ba7e0aa6)" style="fill: none; stroke: #b8b8b8; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 143.267143 122.184 
+L 143.267143 158.4048 
+" clip-path="url(#pd2ba7e0aa6)" style="fill: none; stroke: #b8b8b8; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 234.938571 122.184 
+L 234.938571 85.9632 
+" clip-path="url(#pd2ba7e0aa6)" style="fill: none; stroke: #b8b8b8; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 326.61 122.184 
+L 326.61 158.4048 
+" clip-path="url(#pd2ba7e0aa6)" style="fill: none; stroke: #b8b8b8; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 418.281429 122.184 
+L 418.281429 85.9632 
+" clip-path="url(#pd2ba7e0aa6)" style="fill: none; stroke: #b8b8b8; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 509.952857 122.184 
+L 509.952857 158.4048 
+" clip-path="url(#pd2ba7e0aa6)" style="fill: none; stroke: #b8b8b8; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 601.624286 122.184 
+L 601.624286 85.9632 
+" clip-path="url(#pd2ba7e0aa6)" style="fill: none; stroke: #b8b8b8; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 464.117143 238.608 
+L 464.117143 5.76 
+" clip-path="url(#pd2ba7e0aa6)" style="fill: none; stroke-dasharray: 5.18,2.24; stroke-dashoffset: 0; stroke: #b8b8b8; stroke-width: 1.4"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(41.565035 65.952176)">15 Jul</text>
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(25.319081 74.750986)">Cross-tokenizer</text>
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(9.304621 83.549797)">disagreement programme</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(127.011463 164.790207)">27–28 Jul</text>
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(108.115994 173.589018)">LMSYS / WildChat /</text>
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(111.408112 182.387828)">ToxicChat freezing</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(224.907892 65.952176)">30 Jul</text>
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(202.208689 74.750986)">293,034-row paired</text>
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(212.929306 83.549797)">attack corpus</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(316.57932 164.790207)">31 Jul</text>
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(295.604312 173.589018)">Environment issue</text>
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(284.05175 182.387828)">→ quarantine + envguard</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(408.250749 65.960605)">31 Jul</text>
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(389.359171 74.759416)">Pre-registered E1</text>
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(388.727593 83.549797)">NOT SUPERIOR</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(499.922177 164.781778)">7 Aug</text>
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(482.953217 173.580588)">Current attack ×</text>
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(487.021513 182.379399)">defence study</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(591.593606 74.750986)">8 Aug</text>
+    <text style="font-size: 8.3px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(575.015004 83.549797)">Evidence freeze</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle" x="234.938571" y="41.9808" transform="rotate(-0 234.938571 41.9808)">Preliminary / historical programme</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle" x="555.788571" y="41.9808" transform="rotate(-0 555.788571 41.9808)">Primary dissertation</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd2ba7e0aa6">
+   <rect x="5.76" y="5.76" width="641.7" height="232.848"/>
+  </clipPath>
+ </defs>
+</svg>

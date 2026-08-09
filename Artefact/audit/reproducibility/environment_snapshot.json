@@ -1,0 +1,35 @@
+{
+  "snapshot_utc": "2026-08-08T01:36:12.171037+00:00",
+  "python_executable": "d:\\Study\\NCL\\Dissertation\\artefact\\version2\\.venv\\Scripts\\python.exe",
+  "python_version": "3.11.3 (tags/v3.11.3:f3909b8, Apr  4 2023, 23:49:59) [MSC v.1934 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "transformers": "5.14.1",
+    "tokenizers": "0.22.2",
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.1",
+    "datasets": "5.0.1",
+    "huggingface_hub": "1.26.1"
+  },
+  "torch": {
+    "version": "2.6.0+cu124",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "cudnn_version": 90100,
+    "device_count": 1,
+    "devices": [
+      {
+        "index": 0,
+        "name": "NVIDIA GeForce GTX 1650",
+        "total_memory_bytes": 4294639616,
+        "compute_capability": "7.5"
+      }
+    ]
+  },
+  "nvidia_smi": "NVIDIA GeForce GTX 1650, 592.27, 4096 MiB"
+}

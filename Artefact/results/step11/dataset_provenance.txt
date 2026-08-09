@@ -1,0 +1,68 @@
+COMPLEX LEGITIMATE-TEXT UTILITY SET
+===================================
+
+Purpose
+-------
+This dataset is not an attack dataset.
+
+It measures whether tokenizer defences create collateral effects on legitimate
+inputs that differ from ordinary English prose.
+
+Categories
+----------
+1. code
+   Source: CodeSearchNet Python functions.
+   Original corpus: Husain et al., CodeSearchNet Challenge, 2019.
+
+2. url
+   Source: GitHub source URLs attached to CodeSearchNet examples.
+
+3. emoji
+   Source: GoEmotions Reddit comments containing emoji.
+   Neutral examples are preferred.
+   Original corpus: Demszky et al., GoEmotions, 2020.
+
+4. misspelling
+   Constructed from the project's Jigsaw BENIGN comments.
+   Exactly one internal word-level typo is introduced.
+   This category is explicitly synthetic/constructed.
+
+5. non_english
+   Source: FLORES multilingual benchmark sentences.
+   Five languages/scripts are sampled:
+       Hindi / Devanagari
+       Arabic
+       Russian / Cyrillic
+       Chinese / Han
+       Bengali
+
+6. mixed_script
+   Constructed from aligned FLORES English + non-English translations.
+   Format:
+       English sentence — equivalent translated sentence
+
+   These are legitimate bilingual mixed-script strings, not spoof attacks.
+   This category is explicitly constructed.
+
+Literature rationale
+--------------------
+Unicode UTS #39 distinguishes single-script, mixed-script and whole-script
+confusables and defines mixed-script detection mechanisms.
+
+Broken-Token notes that CPT behaviour differs substantially for languages such
+as Chinese and Arabic. This makes multilingual clean utility testing directly
+relevant to CPT filtering.
+
+Bad Characters shows why Unicode sanitisation is security-relevant, but the
+existence of legitimate Unicode means a defence must also be evaluated for
+collateral utility damage.
+
+Important interpretation
+------------------------
+The victim is an English toxicity classifier.
+
+For non-English, code and URLs, the classifier's baseline prediction is not
+treated as semantic ground truth.
+
+The meaningful utility quantity is therefore defence-induced CHANGE relative
+to the exact same input without the defence.

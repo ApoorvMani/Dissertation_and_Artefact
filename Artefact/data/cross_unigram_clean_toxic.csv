@@ -1,0 +1,1347 @@
+sample_id,text,toxic,word_count,clean_toxic_prob,clean_prediction,tokenizer_family,model_name
+0ee454e997194378,"How dare you send me such abuse you fucking cockmaster!
+If you dare warn me again, Mr Jeff. I will savagely attack your mother!
+
+I know where you live",1,29,0.9984639883041382,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+466f1b315d838c5b,"Please do not delete websites without knowing what you are doing. This is a big game, its just not world wide yet, i've seen many articles like this on wikipedia, i don't see how ours is diffrent, until then fick dich",1,41,0.9635534882545471,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+700f439a55625cb1,"Hey Know it all Jerk! 
+
+Just because you can edit other pages doesn't mean you should just to tell people what you like. I do not give a FLAMING FUCK IF YOU LIKE CHEESE NIPS SO STOP POSTING !!!",1,39,0.9997804760932922,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+8c7fca91325b7457,"My name is Mark Pellegrini and I am a fat fuck who appointed myself to serve as head of the arbitration committee for year after year, because I'm a power-hungry dumbass. Please contact Guang Gao and inform him that I am a pedophile  I have blocked the entire uni subnet to prevent Lir from vandalizing my page, but it looks like Lir isn't the one vandalizing me! God, I'm so fucking stupid  I wish I could stop the vandals, but all I can do is wage an endless War on Vandalism... and im losing! What? A DOUGHTNUT! GIMME!!!!!!!!!!!!",1,98,0.9994938373565674,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+9950e506c3f939ae,"Awesome ). Even though you were actually idiotic enough to block me for the wrong thing, I haven't commited vandalism EVER, you liar, I was verbally abusive towards another editor, which despite his irrationality, vandalism, lieing and accusations of bad faith, was indeed inexcusable, but at least get it right fool. I know being an administrator doesn't really require any actual insight or honesty, but when you link to the correct action, you could at least portray enough mental capacity to not link to a page that doesn't describe my action (abuse) as something I have never done (vandalism). I'd also like to say, ha, I can't believe it took me saying I'd be blocked for my comment to be blocked, you're really pathetic. -",1,125,0.9699094295501709,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+c33d7b2d87e78295,"Queen Mary 
+
+Mrs Windsor's granny.She was a bitch.",1,8,0.9989938139915466,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+f23241f21fd3d767,"Too Cool 
+
+Please please please... get a life...should you not continue being a boring bastardtits lawyer and stop spoiling my giggles ps do you live with your mum ??? pps i speak french too, voulais vous F**K YOU! ppps hugs babes",1,41,0.9972658157348633,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+57bea1d837f085fa,"Hey fucking pig 
+
+Hey fucking pig-of-a-bully; I'll fuck off sure, but after you fuck out from Wikipedia completely you fucking bitch.",1,21,0.999880313873291,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+6c0b6e54d0b2ca24,"LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1lol imma donkey
+LUNCHABLES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",1,164,0.9936916828155518,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+2498c779f14dfae8,fuck off you bastard who do you think you are judas this guy kieron richardson he should be fucking dead have you seen what he's done to that poor girl have you,1,32,0.9998646974563599,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+f05c0f10fc8254c4,"What a rude and nasty human being you are, making people's lives a misery on Wikipedia. Go and die you piece of shit.",1,23,0.9999256134033203,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+74bd6565c5c55524,"ITS TIME TO KICK THESE LEFTIST FOOLS OFF WIKIPEDIA 
+
+ENOUGH OF THIS LEFT WING PROPAGANDA AND NONSENSE",1,17,0.9886283278465271,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+6dd872eccac27249,"What is your problem Man? 
+
+Why do you have to get involved in editing and just barge in like that. You know that is extremely rude and i don't like it.",1,31,0.952487051486969,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+12a1805ef86d1267,"He is not gay in Rugrats, but on the internet, he is.",1,12,0.9651113748550415,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+3d4eaf72f069f950,"Respect is earned by respect 
+
+That user IS a troll and a stalker. They are not respected and are close to being banned. Did you bother to read the inflammatory garbage that they write on wikipedia? Or are you just part of a troll posse?",1,45,0.89084392786026,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+ec1add9e6b0eaf66,"I want to apologize to all of the morons, imbeciles, and microcephalics on Wikipedia that I've insulted.  I know there's a lot of you out there and I can't possibly remember all of your names, but let me just say this: I love you and I accept you for who you are.",1,52,0.6848089098930359,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+54b4fce9d69cbc01,"Kill six of my babies before they had a chance to breathe? 
+
+You won't be getting away with this without the world hearing the real name of your dog, hideously hidden by your white washing.
+
+How can you worship an incestuous rapist in this way?",1,45,0.9896878600120544,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+fcd693485b8fdc93,"Stop butchering articles 
+
+What a hack job you did of the Gorilla article.  Do you actually think it's an improvement?  I'll keep reverting until it gets through that thick skull of yours that your changes were totally unnecessary.  A separate page just for gorillas in popular culture?  What were you thinking?  That was a VERY stupid move.",1,57,0.9815034866333008,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+9bb20c51c9fec236,FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEWFAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEWFAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEWFAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEWFAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT JEW FAT,1,1247,0.9877095222473145,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+3672e2b246e21e9e,"""
+
+Talk about an abusive """"Respect mah authority block!"""" done to cover your own incompetence . """,1,17,0.9743850827217102,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+c841d0130a810bcf,"Dislike 
+
+I strongly dislike you. In fact I think you're a real cunt. 101.190.36.129",1,14,0.7462437152862549,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+4345f2853c01a9b3,"Hypocrisy
+
+These are the very things you are doing. Mere accusations do not make you right trolls. Fail",1,18,0.9777210354804993,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+63c08db42abdf932,"HEY ASSHOLE
+
+why did you delete the new picture of John McCain? Do  you hate america? It was flattering as fuck. DID YOU NOT look at his eyes? GROW A PAIR and be emotinoal for a moment. 
+
+SEND
+
+oh wait i press 'save page' i guess huh? okay.
+
+why dont you TELL ME mister WIKI PEDIA MASTER
+
+get a life. and dont be so rude next time.",1,67,0.9914939403533936,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+26b6bcf817f72e67,"Wonderful. Maybe we should also include the (code)names used by nazis, muslim lumpens, and other nationalistic subcultures for the places they looted or lived therein as parasites and malicious minorities, contributing to Thessaloniki a huge NOTHING. S",1,37,0.9170875549316406,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+a731e83d98517e85,Hello asshole. Your mother might be a cross wiki vandal or even a cross country whore but I am not. You blocked me on a groundless basis only because your  asked you too. I have not done anything wrong in English wikipedia. But you will pay the price for your stupid action.,1,52,0.9996744394302368,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+81371cf069856f3f,"""So a person of Pakistani or African decent can't be classed as English in your view? Or you think that all skinheads are racists - even the black ones? And you feel that blacks and asians are """"taking over"""", well you must read the wrong sort of newspapers if those are the views you hold. I know that you must be consumed with self-loathing at not being English, but hey, look on the bright side, you can just add it to the list of other things """"you people"""" spend your miserable lives whining about. Take care now!  
+
+""",1,98,0.9398959279060364,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+c5c46a35be2fe2ce,"You're wrong 
+
+I am fucking not a vandal. So FUCK OFF!!!",1,11,0.9998573064804077,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+c076a2bae78705d6,""" 
+
+this is total cr*p
+
+I do not send viruses. Tell me how?  You are one person who loves to lay blame where there
+is no guilt, BAsed on ASSUMPTIONS. See """"post hoc, ergo prosper hoc"""" in logic. 
+
+Now, what the H*ll should I use to introduce a comment? If not = (  )= then what?
+
+WHY NOT JUST TELL ME?
+
+Eh? Or is that too kind?
+
+Beside, ML said he HAD NO EMAIL. Was this a lie? Maybe so.
+
+I email Zoe, and she gets no viruses. Ask her. Just do not open attachments.
+
+God, the lies and lies I find here.
+
+beckjord 
+
+beckjord 
+
+""",1,106,0.9855421781539917,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+fc499c53411d0a73,"""
+NO, you are incorrect. Xenophobia can be a clinical phobia, and is misused as a political epithet. It is not a conscious decision someone makes, it is driven by instinctive motivaition: please READ A BOOK! (better still, do a degree!) Don't parrot things you don't understand. Phobias are by definition irrational, as the article states by saying """"...like all phobias"""" - come on, read! follow the links! then think!""",1,70,0.026605600491166115,0,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+326f2b7604034d4d,". I am a stupid bitch for blocking this user, but that's just what bitches like me do",1,18,0.9999340772628784,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+2c2a14cd62bacacc,"Hi ya buddy 
+Look, don't be a butt humper.  Are you bendover buddies with Hale or something?  What the hell is wrong with mocking a piece of dog shit like that?",1,31,0.9822208285331726,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+80b069b2c1e9e769,"""The definition of genre warrior is YOU. I am not """"warring"""" shit. I am adding sources for genres already existing. You are pushing your own opinion as fact. And I will destroy you if you continue to thwart me. """,1,40,0.9915155172348022,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+68e015df4fee2c0f,"You just don't understand, do you?  You are pathologically programmed to sabotage your own attempts at hoaxing.  You cannot succeed.",1,20,0.9558699131011963,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+75ff3995be349c87,"I wanted to vanish, I wanted to flee from the tom.mevlie image, let me go in peace and you will never hear from me or this stupid account ever again.",1,30,0.9891406297683716,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+b7dda642e091bcd9,"Hello
+
+Hello my retarded ugly boy, you think you own wikipedia and edit pages but don't be fooled - you will be crushed and I will show you that you don't own the internetz. Wikipedia is for everyone and you can't control all the pages.
+
+Douche.",1,46,0.9741801619529724,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+36caa818e690ac4e,"""
+
+Other suck puppets
+Salam, I guess these are the Suck puppets of our friends(Patchouli):(t-c) """,1,16,0.9943932294845581,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+4d1ba7b5c96b4efa,"Hey you bitch 
+
+When you deleted my page, I cried. You made an 18 year old cry.",1,17,0.9999358654022217,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+7df8284e34add49d,"Go back to Pakistan. 
+
+You're not wanted here.",1,8,0.9872465133666992,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+ccf05c5d4b791836,"ur a faggot, fuck off and get a real job and stop fucking with my posts
+
+8=======D",1,17,0.9998193383216858,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+a8e2d931c229a82e,"Oh cool, you deleted other part, what is next? You will delete the whole article too? Good job! Can block me again, it's just that you can do. I-D-I-O-T",1,29,0.980967104434967,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+b76e9f17979d1f14,".
+
+ i have just changed to Turkic again. i dont understand why everybody wants to share turkish history. and this guy called kansas the arm taker  is not  really an iranian , he  is an idiot  troll . we have lots of iranian wikipadian friends here,they dont like this stupid  provocateur  also. long live iranian turkish friendship and watch out the loser provocateurs who think they can troll around and write fake history. love and respect for real iranians",1,79,0.6736544370651245,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+68efd5aee7c08d37,"Umm...
+
+Can you pull your head out of your arse for a second and admit that the belief that Muhammad was foretold in the Bible is the very definition of pseudoarchaeology? It's only believed by a few to push their agenda. It's physically impossible. Its arguments fall flat. Get a grip",1,51,0.8686102628707886,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+fccec1cc437cc048,"Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+Gamaliel enjoys making love to animals, and Bill Maher. Link with picture showing this: just google meatspin.
+
+ Gamaliel enjoys making l",1,684,0.11949630081653595,0,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+a980f867331cb168,"You're both morons.  David Levy, you're the ONLY person with a problem with the move, so I'm not sure what consensus you're referring to.  Scorpion, relatively popularity is meaningless.  They both have the same name.  Ergo, there should be a disambiguation page.  Since neither of you seems to have a clue, I'm not going to waste my time here anymore.  Good luck with your fan page, idiot.  And good luck with your fascism, Levy.",1,74,0.9763748049736023,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+cbff6e8b7caa4802,"Lahiru Kannangara 
+
+Getting really scared ? 
+Lahiru Kannangara: Aerospace Student at CUNY, York college - spends his time harassing wikipedians and promoting Sri Lankan government propaganda.  Given final d sentence warning.
+
+Now that we have uncloaked your identity..the world has become a nasty place hasn't it ?  If you don't cease and desist, you know the consequences very well.  We sure hope you don't won't to end up as sun soaked road kill. We know you are away from your college residence, so don't worry we are not stupid, but when you do come back we will have to do some whacking.  
+Go ahead and attempt to get someone to block this account....  Ugly, smelly, bespectacled, d-w-e-e-b brown guy with uneven teeth riddled with bullets is no biggie in the big city...
+
+Clock is ticking.
+
+Grim Reaper",1,137,0.9315328598022461,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+f7fc7a81568b1810,that whoever deletes shit from wikipedia had a small dick and is a loser which mother is a whore?!,1,19,0.9998877048492432,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+8dcba239cedd67a9,"FUCK USER JUJUBE!FUCK WIKIPEDIA!DESTROY USER JUJUBE!DESTROY WIKIPEDIA!DEATH TO USER JUJUBE!
+FUCK USER JUJUBE!FUCK WIKIPEDIA!DESTROY USER JUJUBE!DESTROY WIKIPEDIA!DEATH TO USER JUJUBE!
+FUCK USER JUJUBE!FUCK WIKIPEDIA!DESTROY USER JUJUBE!DESTROY WIKIPEDIA!DEATH TO USER JUJUBE!
+FUCK USER JUJUBE!FUCK WIKIPEDIA!DESTROY USER JUJUBE!DESTROY WIKIPEDIA!DEATH TO USER JUJUBE!",1,40,0.999363124370575,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+e87218d38eb16700,TRY TALKING FOR YOURSELF INSTEAD OF REFERRING ME TO PLACES   HOW BOUT YOU READ THE MESSAGE I WROTE ON YOUR DADS COCK TELLING HIM HO SHIT IN BED YOUR MUM WAS,1,31,0.9998181462287903,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+2a06326ec6fd4e81,Insult me once more and I swear you go down. Understand little coward?,1,13,0.9590901136398315,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+60521326e2bbd0ad,"The Dirtball
+
+What is your f-u-c-k-i-n-g problem, asswipe?  You are actually defending The Dirtball?  Well, it is my humble opinion that you are, in fact, a true dirtball!  Get a life, you lousy piece of toilet trash!",1,37,0.999887228012085,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+96908d36362e5cb5,"FUCK U CUNT!!!! 
+
+LEAVE My STEPHEN THOMSON Page alone I was trying to get alot of information and u sit there on your cunt like ass saying that its too short Well Fuck OFF and tell the other users delete my page to FUCK OFF And leave the page ALONE",1,50,0.9999279975891113,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+8b62bc63e1672ded,How many niggers does it take to change a light bulb???,1,11,0.9695093631744385,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+5dce09f62ebd7073,"to the idiot barek
+
+you obviously are spending too much time vandalizing pages instead of watching news, reading news. here is one for you. http://online.wsj.com/article/SB10001424052702304765304577478431126161646.html?mod=googlenews_wsj
+
+instead of vandalizing pages, why don't you go read it, huh? if you spent a little time just search for that guy's name, you will find plenty of news reports. i pity you, you seems to enjoy vandalizing pages instead of helping.",1,67,0.9065923094749451,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+60f9782eba6706d0,"Re 
+
+Fuck off you piece of shit. Do yourself a favor and kill yourself. The world doesn't need anymore freaks.",1,20,0.9999127388000488,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+04f1b45c0380f70e,"And I believe you're being an arse, but hey, I cope....",1,11,0.9375505447387695,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+59fdce250515aa19,"Hello 
+
+OK, don't try to frighten me with your a-hole threats about what you'll do in the real world. You and Nishkid, you related or what? Does your sage, soothing advice go to hell when soemone questions it?75.21.101.63",1,38,0.9675016403198242,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+d991b662947ca605,Quit vandalizing the George Bush page you stupid liberal.,1,9,0.9883429408073425,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+8cc968809c0baade,"You Haven't a Clue 
+
+You Haven't a clue what vandelism is so FUCK OFF!!!",1,14,0.9994421601295471,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+c1e23ce6af66fa0e,A butt ugly fugly muthafucka like you should do the world a favor and just kill yourself already!,1,18,0.9998712539672852,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+47f06447da579cb8,"""
+Go rot in hell you evil liittle bastard. ''''''  """,1,11,0.9998823404312134,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+b6dc4a0b62136ef6,that you are a homosexual who is very gay.,1,9,0.9432439208030701,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+b1f95cad3edd873a,You sound sick in the head. The solution is simple - it shouldn't include AKM but should include PK.,1,19,0.989080548286438,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+ce26cedc315e5d96,"Objectivism 
+
+Hey Walter, dont you remember me. I am your husband. You cant be objective in some cases because you are gay. I will fucXXXk in the aXXXss User:Walter Görlitz. YOu will be my eunuXXXch. User:Walter Görlitz is gXXXay and he is afraid to tell people so I do.",1,49,0.9887282848358154,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+1cce601c140db849,"Playing god again==
+But time the deletion nazi is a freako who actually believes in that shit. Here he is. User:Allen3. Ask yourself if you want wackos like this responsible for content on Wikipedia or in any way associated with the organisation.
+
+This fuckup has namely deleted the article on one of the stars of ITVs Britannia High. He seems to be about what one can expect from the myopic fascists from the US running this pathetic site.
+
+==",1,79,0.9918003678321838,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+b6b75f020ab87583,OMG!!! someone is making threats...iam so scared.. thats funny you change and make up your own barnstars thats low and embarassing!! Get a life!! like one out of this site!,1,30,0.9770804643630981,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+be892c85f8e1ded6,"Look at your own ridiculous behavior first. By the way, I'm a different user than the one you seem to be writing to/about, even though I agree with this user more than I agree with you.",1,36,0.95869380235672,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+84ef69dc49e6eb19,"""
+
+ WHAT?!?! 
+
+""""damaging the hard work of others""""
+
+I did nothing of the sort. Your user talk is open to anyone. i was just expressing my opinions.
+
+Frickin idiot, gosh....""",1,30,0.9961684346199036,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+ffb47123b2d82762,"""
+
+Hey listen don't you ever!!!! Delete my edits ever again I'm annoyed because the WWE 2K15 a few of the roster have been confirmed and your stupid ass deletes what I write. just stop!!!! Please STOP!!!! You don't work 2k or WWE games so stop deleting other peoples shit if I get it wrong or others get it wrong let them they will get the hang of it eventually but don't stick your most ass in their and I'm gonna delete the """"please do not insert the roster"""" shit how do you not have it if has been confirmed!!!!! God your stupid.""",1,103,0.9996115565299988,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+a51eb0d7a06db3ed,"SAD 
+
+You are one sad fuck. Try to get out of the basement, there's sunshine up there.",1,17,0.9992420673370361,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+998c08d8f12e6736,", your buttocks don't seem constructive to me.",1,8,0.9762084484100342,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+c0b303687cdd049d,go fuck yourself too you fucking piece of shit! block me! as if i gave a shit! fuck wikipedia! D,1,20,0.9999303817749023,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+6bf645aa1b5eec39,"please no profanity when u talk to me I am a very religious person, by the way my friend said fuck you",1,22,0.9977746605873108,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+1c00347f901ac781,whatever dude.  you know nothing about MLS as proven by your idiotic contribution to the Whitecaps MLS page fiasco.  you didn't even follow your own rules when you undid my edits and did your own ... i had to fix them so it actually reflected what was on the impact website since you have your panties in a bunch about that being the only valid source of information.  if you want the page to have less information than what is out in the public sphere than that is on you ... i don't really care i was just trying to be helpful since the impact were being so lazy.  eventually they will update their page and you will see i was right about the numbers.173.165.207.241,1,125,0.9435729384422302,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+355b374310e340a7,"You do not deserve to be alive 
+
+Look over your shoulder from now on",1,14,0.9731127023696899,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+091b4fb4d0ff78bb,"Fraggle81 ==
+I can just make new accounts every time I want to attack you. Proxy. Faggot.
+
+==",1,18,0.9971368312835693,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+579a22a2a56d0b65,"""
+Rona was a bitch, but she's got pizzazz! Wait, why do we hate her again? Plus, she sent that decoy on a suicide mission! Or was that under Giles' orders?~Talk to me! """,1,34,0.9990733861923218,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+ed75734705c3093b,"Oh look, it is shitface. 
+
+Hey shitface. I just want to let you know, you still haven't apologized to me for vandalizing my page so i demand a damn apology RIGHT NOW! DO YOU HEAR?! I DEMAND A DAMN APOLOGY NOW SHITFACE! NOW!!!",1,43,0.9996856451034546,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+01fd0de4ca85352f,"Tried to be productive (look at my contributions) but hit my head against a wall of spoiled greek children (or probably under pay from Greek Government) that purposely keep vandalizing the Albania related pages and keep iritating the albanian editors until they explode and get banned. As a historian I blush with what I find quoted as reliable information on the wikipedia pages and the quality  of the editors and sources. Time to move to the French pages (a lot of readers there), still 5 more languages to go. Till next time.Wikipedia sucks! .",1,94,0.9740091562271118,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+6c491480caeae015,"My name is Vascoamaral, I am a clown, and I am Gay. I am an i.d.io.t who like to edit wikipedia and block some constructive users. jojojjo",1,27,0.9764052629470825,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+022f3512ecd08560,FUCK YOU RORY. YOU ARE A CUMSLURPING COCKLOVER.,1,8,0.9999202489852905,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+0020fd96ed3b8c8b,=Tony Sidaway is obviously a fistfuckee. He loves an arm up his ass.,1,13,0.9984538555145264,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+23b2227da797d2cb,"You are a propagandist troll. If you don't provide evidence of the lie you just said remove your comment. I never said all wikipedians are fascists because, moron, I'm one of them.",1,32,0.9306332468986511,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+2f98fad790677994,"""
+
+ While I respect the fact that you've obviously given this some thought, a few counterpoints: 1) Every single state in the union, with the possible exception of Rhode Island (mostly because it's so damn tiny), is a """"transitional"""" state with the features you mentioned. Examples: California includes ghettos, really rich gated comunities, hick towns (such as Watsonville, or virtually any city more than 100 miles from the coast), and the Bay Area. New York? Same deal, if you've ever been to upstate New York you'll see. And of course, the reverse is true too - a lot of Texas is really nice, progressive even. I've heard some less-than-terrible things about Birmingham, Alabama. Even Okla-dumbass-homa has some okay parts of Tulsa. So I honestly believe that you're about 180 degrees on this one - your statement, while eloquent, was somewhat meaningless, whereas History makes some valid points (the most valid of which is that if you (speaking in the generic, non-threatening second person) call me a """"southerner"""", I will tie you to the back of a pickup truck and drag you to your death while throwing beer cans out the window to hit you in your skull.  """,1,198,0.09002932161092758,0,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+ff12c0bbc3af0158,"I'm ganna give ya a day ta think about weather or not ya wanna deal wit me, and believe you me homie I know all bout harassment and I ain't ganna stop on this mutha fuckin syte, if i'm not unblocked at 3:00 I'm ganna hack your shyt, harras you and basicly just fuck you around, so think about it ok NiggeR?",1,62,0.9998867511749268,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+fe3a2fa3c9018bd5,"""
+
+I haven't asked for """"sanctions"""" against  it is not my job to decide is he has to be sanctioned or not; I have just reported his actions and abuse against my person.
+Unfortunately I cannot see if it was """"archived"""" with criticism against me; I want to read it; where is it? why was it erased?? is this the way WP admins protect each other? are you also protecting  here?? 
+
+The thread I started on the talk page CLEARLY states what  is doing on that page and CLEARLY states why there is not """"vandalism"""" on that page; then I'm asking you: are you teaming up with  when protecting that page and avoiding ME to edit adding the information I have clearly supported all this time?
+
+I'm not asking ANYTHING but I just not to be HARASSED, BANNED, ERASED; I have added the necessary independent SUPPORT for editing that page; And you cannot call that DISRUPTIVE because it is not; What do you know about PXE in order to know if what I'm editing is or not disruptive? 
+YOU ARE DEFINITELY THREATENING ME WITH MORE BLOCKING
+you are part of this game; you are definatelly protrecting 
+""",1,197,0.01954428292810917,0,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+8565b2214f671b64,"""Counties are called """"she"""".I won't learn history from you small greek fashist.Don't write anything to me if it's possible... 
+
+""",1,20,0.874923825263977,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+579b2d65520040c1,"are you a social life failure? 
+
+Why you so care about my talk page? I can do with it what I want unless there's no mat. Take a break and go relax to Siberia, kid. 95.68.45.171",1,36,0.9591600894927979,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+12fc2321e7bd1e06,"Is Deepak the ruler of the world? 
+
+Let me give you people who love this guy/girl Deepak....An idea of what Deepak is like....He must be some really unhappy person......i promoise you this is what it is like in dealing with Deepak. 
+
+I bring up an issue where im asking why an article does not have more info, or about editing an article, or about taking something out of an article. 
+
+And Deepak wont allow me to make edits. 
+
+So I give Deepak examples and information and trying to back up my edits are legit. 
+
+And Deepak ignores my logic and doesnt give me alot of logic as to why my info is not valid then 
+
+So I try to figure out why Deepak is being so strcit. I remind him that i backed up what i said. That i had information that was logical. And why my edits are good. 
+
+And Deepak calls me a troll and insults me and accuses me of being a nazi lover or something
+
+So I answer every insult, every accustation , and every put down that Deepak gives me. And then i remind him of why my edits are valid.
+
+And Deepak ignores most of what i write and continues to call me a troll. Or a nazi lover. Or other insults. 
+
+I then get annoyed and ask Deepak why is he ignoring most of my logic that i write down? Why does he pick and choose what he wants to answer? Why does he not give me logic in return? 
+
+And Deepak wont reply . 
+
+I then ask other users about making edits and asking them about my logic and giving them my reasons as to why my edits are valid. And some answer and some agree and some dont. 
+
+And Deepak all of a sudden starts responding again....with logic? No....with answers? no....with reasoning? no....with information? no....he tells the other users that im a troll and a nazi and pro India then . 
+
+I then answer all of Deepaks insults. I remind him of why i want edits to be made. I give him my information as to why  my edits are valid then. 
+
+And Deepak goes back calling me a troll, and a nazi, and a pro India dude. 
+
+And this kind of stuff goes on and on and on...you get the idea.....he ignores information you give him. He picks and chooses what he wants to answer. And he doesnt even answer the logic you give him sometimes. But he wastes his time in name calling, and insluts, and putting you down then. 
+
+So then after a while i get annoyed. And i remind him how things got this bad between us. I type and type and type and type just like i am now. 
+
+And Deepak ignores most of what i typed. 
+
+Many times i write him these long replies where i answer all his points, where i tell him why its wrong for him to insult me and put me down, and why its wrong for him to ignore the information i have as to why i want to make an edit, or whatever it is im bringing up then.....and no matter how much i write....even if i write these long replies to him then....even if i answer every point he brings up....he usually either ignores most of what i wrote down....or....he picks and chooses what he wants to answer.....or.....he just responds back by calling me a troll, or accusing me of being pro nazi or something, or accusing me of ignoring his points (which is so not true cus i respond to pretty much everything he says then), or accusing me of not understanding what he is telling me, or just accusing me of being pro India then (which I am) or just insulting me, or just name calling me, or just putting me down. 
+
+So then after a while i get so annoyed cus he's this a guy here then with me now, and so i start to call him names. I call him a dictator. I call him the ruler of wikiepdia. And I tell him how he ignores my points. 
+
+And then Deepak tells me how i cant call him names, and how i cant throw mud at him, and how im breaking wikipedia rules
+
+So then I ask him how comes its ok for him to name call me and i cant? How come its ok for him to throw mud at me but I cant then? How come its ok for him to break Wikipedia's rules but I can't then? 
+
+And Deepak has no logical answer....or....he won't respond to those questions that I ask him then . Or he just ignores what i ask him, and goes back to accusing me of being a troll, or acting like im a pro nazi or something then , or just insult's me in general then......
+
+So then I get more annoyed and call him thing's like a dictator, which as you can see here with our history, this is how he acts.....isn't it true?.....he ignores most of my points and picks and chooses what he wants to answer.....sometimes he won't even answer you at all.....and sometime's he just insults you then . So it's logical if get annoyed and call him a dicator right?
+
+Wrong....Deepak then holds it against you that your name calling him...and threaten's to block you, or report you, or he just tel",1,910,0.8948264718055725,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+5c52a8a08f9cbf41,">
+
+ TWAT TWAT TWAT TWAT TWAT TWAT TWAT TWAT TWAT...CUNT =
+
+ THIS USER IS GAY",1,15,0.9933376312255859,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+a08609ab5928ab1f,""":::::: I got blocked for 30 minutes, you got blocked for more than days. You is lost. And I don't even know who the fuck are you.  It's a zero! 
+""",1,31,0.9991999268531799,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+dd6936a9d6e08688,"""
+""""Silly""""?  Please read Wikipedia:No personal attacks.   """,1,8,0.8532007932662964,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+9d46a68671669fd4,"Mermaid: The Body Found rewrite 
+
+Hi. Thanks for making that sentence about giant squid completely inaccurate you goddamn simpleton. Go home.",1,21,0.8622782826423645,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+52e698d435746c16,"You are a Putz just because you do not know about the Moss Bluff Strike Force does not mean its a hoax. You were probably never in the military and you write about military history, so I ask you who is the hoax.  Why dont you go write and article about a battle that you read about in a book that was written by a guy who wasn't close enough to smell the gun powder and then tell me what a hoax is. You are pathetic.",1,86,0.9838705062866211,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+fabb5572558ab51b,"As it is now, this motherfucking asshole keeps revert warring without talk page discussion.",1,14,0.9998354911804199,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+0b6d3b57efaf9515,"Priest are all pedophiles 
+Is this true? How do we know?",1,11,0.9682493209838867,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+269a8a59566c07c6,You are harassing me and annoying me. Stop it or else!,1,11,0.9806113243103027,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+1e28e441eb7f2ea6,", Trevon Saquele Sterling Sloan is a gay fuck fag",1,10,0.9980408549308777,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+db4a2959a5339c9c,"I will give you a clear answer. I have just to watch what the wikipedia admins are doing. I am looking specially to the justice of wikipedia and after this, if you are here, you will get your answer. You have showed by this to everyone, how knogledgeless, hopeless, jealous, shameless and stupid you are! (Tofaan-توفان)",1,56,0.9471158385276794,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+2532be6c638a15fe,"""
+Hitomi Kobayashi
+Note that not only has the fair use image in the BLP infobox been removed (currently approved practice, I believe, though the image adhered to """"policy"""" when it was originally uploaded), now fair use images of film posters/video covers in sections on those films/videos have been removed as """"decorative"""", even though they still fit current """"policy"""" (or at least """"policy"""" last I checked). Unless all film posters are removed from all articles on films, this is a biased removal. Not that I give a fuck, of course, because I've seen this kind of shit go on and on and on here, and it is one of the reasons I have come to the realisation that it is a complete waste of time to contribute content here. Wikipedia is only a place to chat and troll. I just mention this to you because you seem to be one of the few Admins who does seem to give a fuck, occasionally.   """,1,163,0.7658761143684387,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+cbc3b306b5f9b0d0,fuck you motherfucker.there i said it again bitch,1,8,0.9999220371246338,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+15f524981f0212ae,"Why did you remove musical artist discography, not images?
+
+Though most of musical artists CD, DVD images are permitted, why are B'z, Jun Shibata album covers removed? X Japan (see X Japan discography), Glay (see Glay discography) and Dir en grey (see Dir en grey discography) etc album covers are not removed. Why are they no problems? Fuck you!!",1,59,0.9987438321113586,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+2a47d0b60d1a14b7,"Thankyou Mr Lame, Guess you mother was better called that.. (User talk:Beeblebrox) Just do a fucking final favor how do i delete the account permanently. So you can do you nonsensical contribution.",1,32,0.9728381037712097,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+958281e33ba55b06,"do i look like i give a fuck, u are all sad fucks with nothing better to do
+
+ban me, i dont give a shit",1,25,0.9999122619628906,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+e464bf83a6e804e5,You reverted my work for no good reason.  You left a dishonest edit summary.  You deleted my post asking you why.  And then you dare to accuse me of not wishing to be polite?  Don't be such an idiot.  200.83.101.199,1,40,0.9723345041275024,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+18bc9c930d585fe3,"""
+
+ Gita's Samkhya is NOT DIFFERENT 
+
+""""Only the ignorant speak of devotional service [karma-yoga] as being different from the analytical study of the material world [Sankhya]. Those who are actually learned say that he who applies himself well to one of these paths achieves the results of both."""" (Gita 5.4)
+
+You are not a Hindu and so you would not know this. Do you have any proof at all that This Sankhya is different? Why would Sri Krishna say this if it were different. He would have said so!
+
+Sri Krishna in the Gita (10.26)
+""""Of all trees I am the banyan tree, and of the sages among the demigods I am Narada. Of the Gandharvas I am Citraratha, and among perfected beings I am the sage Kapila.""""
+
+I am also going to post these quotes into the main article to clear up any confusion.""",1,145,0.07646767795085907,0,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+d812ff14d2b91fe1,"You are as empty-headed a Wikipedian as I have ever met.  You obviously do not know, nor do you want to know nor do you want anyone else to know why San Francisco is a great city to live in.  You are acting like a child because you refuse to view the images as they are offered for free.  Historcal, exciting images of a great city.  There is no other site on the web such such a good collection of images of that great city available like that for free and you want to sit there and whine because copies are also availble for ordering.",1,105,0.852368950843811,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+cd87db9e578b7d9d,"""
+
+ Hi ) 
+
+  Asshole Detected Award Major Suckage detected in your personality   """,1,13,0.9865118265151978,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+ceb8acee117db5d6,"are you dumb 
+
+what the fuck are you talking about. don't do what again? expose the truth and then have someone delete my messages?",1,24,0.9998602867126465,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+bdf086fcc1dc4772,"What on earth are you on about? Battlefield Earth is a FEATURED article, not a piece of crap, and it, as with this article, describes the controversy surrounding the movie as well as the fact that it is generally regarded as a crap movie in great detail, similar to this article. It is an excellent example of the fact that when a movie is a piece of crap, as expelled is, the article is going to be overwhelmingly negative, as this article is. I appreciate that there are a large number of trolls who come to the talk page and complain about nonsense, but you really need to be less defensive and actually think about the point being made before commenting",1,121,0.7453453540802002,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+b541404f479f9763,"A turd for you! 
+
+For all your hard work. Found this in the toilet, so I picked it out and immediently thought of you. So here you go )",1,29,0.9648399353027344,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+481bd6410f818d7a,"Thou shalt be ravished in thy buttocks. It is suren to be hurtin'! 
+
+It is suren to be hurtin'!",1,19,0.9906665682792664,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+91f28a59099e15c7,Don't ever show your face where I live and don't ever let our paths cross in this life or the next.,1,21,0.9876838326454163,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+a4003fde76723168,I HOPE ISRAEL GETS WIPED OFF THE MAP,1,8,0.944023072719574,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+65502d5fd7fec945,"You must be stuck on stupid Dmries. I'm not arguing about why I was blocked. I'm saying that ABC News has an opinion that the ad was an attack ad. It's not a reliable source because it is biased, and the no original research policy is a dumb policy. Why would you not want to see the actual ad for yourself? Oh, I know. We're all too stupid to figure out what the actual ad means. We need ABC to break it down for us. Save it. You have an agenda and you won't let anyone interfere with it. I feel sorry for any student who would get stuck in one of your classes. They probably end up dumber for the experience!",1,122,0.9540502429008484,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+1d1e6609d9065a25,"""
+
+ Shut up vs. fuck off 
+
+So, you're telling me being told to shut up isn't a personal attack?  """"Fuck"""" is just a word like any other.   """,1,28,0.9998757839202881,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+fccd2fdb1a6df65f,"Well as i was a twat then advice from twats would be ok o), your advice is good, chill chill chill, cheers mate   
+Baiting
+So a newbie gets blocked for wp:npa, and here we see two editors baiting him quite a bit more than likely in the hopes of getting him blocked again, funny how they scream PA at every given chance yet have no issues in calling others idiot and troll, perhaps someone ought to have a word with them?",1,81,0.9140713214874268,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+f88dde2de58e6c87,hate you and think you are too way too dam fat.I,1,11,0.9875730872154236,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+79ba4dccd9a564f6,"Back off
+Yeah I know you're in cahoots with linux nutcase and you like persecuting people. Stop pulling this persecution crap.",1,21,0.973149836063385,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+d68b50dde35d3e08,"Oh Sh*t, a warning! I'm really scared now...
+Just who the hell are you and why have you taken the time to vandalize my userpage? First, you made a comment about chokeing me to death , which sorry to say, is threating, and even over the internet can earn you a RL perma-ban (ie. JAIL).",1,55,0.9995248317718506,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+34b6e9f3a2950ca0,"Rodeo Song lyrics
+
+Well it's 40 below and I don't give a fuck
+Got a heater in my truck and I'm off to the rodeo
+And it's allemande left and allemande right
+Come on ya fuckin' dummy get your right step right
+Get off the stage ya god damn goof, get off
+
+piss me off, fuckin' jerk, get on my nerves
+
+Well here comes Johnny with his pecker in his hand
+He's a one ball man and he's off to the rodeo
+And it's allemande left and allemande right
+Come on ya fuckin' dummy get your right step right
+Get off the stage ya god damn goof, get off
+
+piss me off, fuckin' jerk, get on my nerves
+
+Well it's 40 below and I aint got a truck
+and I dont give a fuck cause I'm off to the rodeo
+And it's allemande left and allemande right
+Come on ya fuckin' dummy get your right step right
+Get off the stage ya god damn goof, get off
+
+piss me off, fuckin' jerk, get on my nerves
+
+Well here comes Johnny with his pecker in his hand
+He's a one ball man and he's off to the rodeo
+And it's allemande left and allemande right
+Come on ya fuckin' dummy get your right step right
+Get off the stage ya god damn goof, get off
+
+piss me off, fuckin' jerks, get on my nerves",1,233,0.9996079802513123,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+d4090f8db8939d73,Yo who the heeck wrote this and how the heck do they even know what happends.,1,16,0.978438138961792,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+2145963fba020fb3,"Question 
+
+Can i squeeze your boobs until they pop out?",1,10,0.9942917823791504,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+9f8f5031dd220f03,"Zivan56 are you secret agent 001 of OZNA? You announce a lot of cazzate alias lies: stop it! In Italy live a lot of Albanians! You are communist, fanatic, liar, vandal of articles!",1,33,0.9556351900100708,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+16ee69f062b8a7ed,"Stop being a dork 
+
+Two can play play this stupid game.   (talk - contribs)",1,14,0.9902053475379944,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+befd36e7acca9e56,I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS! I BLOCKED REVERS!,1,105,0.9910153746604919,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+2de202356873c769,I'm Not vandalizing. You refuse my evidence on the talk area. You seem to be blind in your support of a Racist who calls for violence.,1,26,0.9618238210678101,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+1da36a612d33559c,YOUR VERY DEEPLY OFFENDED! man you sound like a blow-jobbin' old lady. In fact you are a homosexual blow-jobbin' old lady!,1,21,0.9965987801551819,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+563102ec9e918dfb,FOCK THEE SHMUCKY THE CAT GO FOCK WITH KILRATHI SIVAR PRIESTESSES,1,11,0.9998613595962524,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+966983aedceeacb5,I'm a fat pig.  Does that belong on Wikipedia?,1,9,0.9757505059242249,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+0349d009786407ef,"In conclusion, your explanation is not logical at all. If anybody is making it a problem, it's you.",1,18,0.0018621260533109307,0,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+9df6e193b6865375,"Jack and Jill 
+Eric, thank you for your contribution, but I think the version I put up is more accurate and I have properly sourced it.  Please leave as is.  Thanks and keep on wiking!
+ You may wish to check out Uncyclopedia. They welcome that sort of thing. '''''' (talk · contribs · email) 
+
+I much prefer posting here than Uncyclopedia, especially since the version I put up is factually true.  Please stop censoring me, that's not very nice!
+
+Now go fuck yourself, you nerd!",1,85,0.9517929553985596,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+f666ab07bd12cb8d,"oh she also told me she likes it from behind AND up the ass with pink fuzzy handcuffs so she can't touch her own clit. then she lovesssss it when i pull it out and whipe a nice brown sanchez all over her face and make big brown circles around her eyes, which are also shit color.",1,57,0.9985927939414978,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+b0e4d0c23fffc516,"I didn't Vandalize 
+
+You are a serious dumbass. Any misspelled words or a bad comment on a usertalk page, you consider it vandalism. Seriously get a life Nerowhatever.",1,28,0.9451696276664734,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+8b1483d3d8475403,"HOW DARE YOU, TOO....... 
+
+HOW DARE YOU FOR ATTACKING ME!",1,10,0.9902848601341248,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+03088aacc4600323,"Fuck you faggot, I don't care if i get blocked, as long as everyone knows you are a dumb cunt.",1,20,0.9997076392173767,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+c40e5b44b9e027ea,"""
+
+Bishonen shows her ignorance. Probably more guys get gang banged by other guys in prison, torture chambers, fraternities, and militaries worldwide than women. It's actually a gender neutral term. You say """"attacks"""" -  are their other terms you do not understand?
+Again, ArbCom dare not sanction King Corbett without having a couple sacrifices to throw to his subjects, like me and Neotarf. It's a joke.   (Talkie-Talkie) """,1,68,0.9244858622550964,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+6dfa66fef2e9516d,"Engineer 
+You hope you don't design buildings, and if you do, please don't do it in Europe. Thank you.
+PS: You are a moron.",1,24,0.8727139234542847,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+967a50ad6ec2b46c,"Your a twat, you just delete things that you dont have a clue about! Che Finlay Will orientate your ass!! He'l find you!!",1,23,0.997941792011261,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+2f055a1abb4e56f5,"""Disgusting==
+This guy is a disgusting sex columnist. He revels in it. He does it on purpose, and it's what gives him and his column their edge. It seperates him from every other sex advice giver I've ever read  and it's his signature attitude, tone, and approach to the issues. But there seems to be no way to adduce this highly pertinent and relevant information without violating the lame, loose, sloppy, ill-thought-out NPOV rule. Hilariously (and disgustingly), people tell me providing this information violates article """"neutrality."""" Any help here by any person of quality, integrity, and intelligence would be appreciated.  
+
+==""",1,101,0.9813405275344849,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+df55c69a92a6d90e,"Laman Jegan Joof  
+
+Why didn't it surprise me that you and your ilk will run until your are out of breath to call for the deletion of all Serer related articles?  You, Noq, JamesBWatson and your kind are so predicatable.  I have actually saved you the energy and time by blanking those pages because you and your kind are calling for their deletion.  Why are you and your ilk wasting your time bringing these articles back on and then go through the trouble of deleting it?  Haven't you people got anything better to do with your lives?  As for you, you seems to be a follower.  At least lead for once.",1,111,0.9168214201927185,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+01687a0352f54754,even if we hate furfags and llolis and kid fuckers,1,10,0.9872000217437744,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+cadc6359bf813e78,"The times couldn't know less about Tennessee politics. Qqqqqq, Olando, and Terrancee are all idiots too",1,16,0.9535402059555054,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+2720218b68a5cf76,"hey dickwads. stop hijacking this wiki. these are the final days of ytmnd. they need to be documented. PS BY THE WAY, you're a fucking idiot for believing a wiki article as fact. do a whois lookup. fucking wikinazis. oopssorryguys.ytmnd.com/",1,40,0.9997363686561584,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+b523c67051c92c84,"The articles concerned are approximately 90% rubbish. I have no intention of re-tagging them, let them stay on Wikipedia for all I care, they fit in rather nicely with all the other bullshit.",1,33,0.9824971556663513,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+60ed4ba6ad3eda8f,"You are a faggit 
+Get a life and lick my ball sack.",1,12,0.9997648596763611,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+6af0d73c65b0c8d8,"get lost 
+
+Stop following me Canadian loser. Go patrol something useful",1,11,0.9598343968391418,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+5931b8e88c1caa1a,"I hate you 
+
+How dare you delete my post. You better put it back or I am going to fuck you up",1,22,0.9995587468147278,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+a8c0c22da9328590,"Will you lot frikking stop it 
+
+Use any fooking method you want to test this. I am an open book. I am not Light Current. What I am is very very very pissed off and I just don't even understand what makes you tick. Do you feel a bigger man doing all this blocking? You're not. You're very small men. 
+
+Heck at this point I'll even settle without an apology. Just accept I ain't a sock and let me banter with bugs. 217.41.226.121",1,83,0.9595441818237305,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+1c2da2e07251e45e,"Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+
+Anthony Bradbury sucks cock and eats shit, Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+
+Anthony Bradbury sucks cock and eats shit, Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+
+Anthony Bradbury sucks cock and eats shit, Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+
+Anthony Bradbury sucks cock and eats shit, Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbysouthbanof sucks cocks 
+Notrhbys",1,413,0.99949049949646,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+c14532e93d456260,China smells like fart. China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China smells like fart.China sm,1,654,0.9875943660736084,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+451310793f13b064,"Hell, no. I ain't serving the war, I was helping people, This is fucked up.",1,15,0.9959294199943542,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+c386e1844b1a5387,"Wow. 
+
+Omg okay so i just made this really long page and you deleted it. thanks, BIOTCHHHHH. geez. stop deleting my things or else i'll sue you, faaaagggggggg.  
+
+stop deleting my things or i'll find you. and i'll kill you. kill. kill. kill .",1,44,0.9812752604484558,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+cf92e01c53cb9208,"Junior Barranquilla?
+
+WTF? where did you come up with that name? should we call REAL MADRID... ROYAL MADRID??????????????  pleasse revert!!! don't come up with that made up bullshit! Atlético Junior!!!76.19.149.244",1,30,0.9918655753135681,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+6d871c878d12db7a,"UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON! 
+ UNBLOCK SHANNON!",1,168,0.9320451617240906,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+8bd72d36b97fab46,"you people are cock suckers 
+
+you people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckersyou people are cock suckers",1,82,0.9997584223747253,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+3dfab6ee8a4e1db7,"""
+
+Cocksucker, """"nonesens"""" is bullshit like artificial promotion of women to the extent of even inventing bullshit stories like some hollywood actress while playing four-handed piano thought of spread specturm technique, and then worked it out with an engineer!!!  my god, how stupid can some people be!""",1,47,0.999487042427063,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+b7f6692802236e0e,"What part of FUCK OFF don't you understand, youi mouth breathing pimply turd?  While you'll never bang a hot chick, you can be king of shit mountain, it that it?  I laugh at you.  You can erase and erase and erase.  It's people like you that's the reason this site isn;t making money.  Most people wouldn;t put up with your cliquey bullshit.  I, on the other hand, dont care, have plenty of time, and am all around a better person that you.  I'll bet dollars to donuts I have more money, more respect, a better job, a hotter wife and a better life.  I KNOW this is all you have.  HA, i laugh while you erase.",1,116,0.9999332427978516,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+779aed53fa04aebd,please stop deleting my images u fat ugly cumputer geek looking at kiddie porn all night kiss my natural black ass fat bitch,1,23,0.9998862743377686,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+7b283f6c64d76aa0,"your racist attitude is being ignored and your bias views over Malvinas is exposed by the way you manipulate the words to meet your needs, you are good but not good enought to win a discution in a intellectual manner, the only way you can overcome my wisdom is to have me removed as any british would do in face of greater chalenges.",1,63,0.9539180994033813,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+1b440a47a297738f,"Lies, fucking lies, may you rot in hell for all of your lies and blasphemies.",1,15,0.9999525547027588,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+e2f91b91a9a63949,"WHAT THE HELL IS THIS?! 
+
+HONESTLY NOW. 24.226.23.56",1,8,0.9580538868904114,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+ec47907fc000df7c,"hello 
+
+I would like to draw your attention to the fact you are a worthless tosser who has no life and would be better of dead with maggots infesting your cranial cavity. Would be the first time anything living would be in there.",1,43,0.9955798983573914,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+ab578af26ddc123c,"Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusing other wikipedians dickhead!
+
+Oi!!
+
+Please do not remove me abusi",1,497,0.6074780225753784,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+6f31617f31e0cfb2,"o feel sorry for you, fuck off you american bastard",1,10,0.9969968795776367,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+5cba9cd8fbc78652,"""
+
+ANSWER THE QUESTION INSTEAD OF MAKING EXCUSES! WHY WAS NO ACTION TAKEN TO THE USER WHO WROTE THIS: I'll take that one. """"Blah blah blah yammer yammer yammer propagandists blah blah blah yammer yammer yammer bullshit."""" Poor little, tiny conspiracy theorist. Mommy doesn't love him enough to give him attention. Feel free to """"silence"""" (conspiracy theorist talk for """"rightly make fun of"""") this latchkey kid as needed. 68.0.236.131 (talk) """,1,71,0.9653688073158264,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+5bfef90878ed50c6,I added a new one from the 2009 tour but Wikipedia's gay copyright shit removed it.,1,16,0.8897866606712341,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+5a7e8ceb029dea6d,"hey 
+
+why must you be such a shithole? fuck off",1,10,0.999936580657959,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+fd3d00747e3eb9f8,"""
+hmmmmm Some might call this Wikistalking and harrassment! I am sorry if you people want to hide the Gay side of some of your RW heros. Please read the article on Outing. As more and more RWs are shown to enjoy Gay sex, especially people who condemn Gay sex but practice it themselves, like Ted Haggard it will take away some of the bad stigma. Its time for all the RW Gay sex practicers to come out of the closets and admit how much they like Gay sex! (IMO) Theres that old saying  """"Try it, you'll like it!"""" Thats too true! Why do you think more and more people are trying Gay sex!? Its okay, (IMO) to have a wife and kids and enjoy some Gay sex now and then! (no Meth or poppers though!)  """"Try it, you'll like it!"""" Δbutler• """,1,143,0.9322124719619751,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+5ffd5238aad3e57b,"Read 
+
+What a piece of shit you are",1,8,0.9997875094413757,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+ad0f6c531c69486a,"Frickin' vandals. Hunt 'em down, Admins please. racooon",1,8,0.9913813471794128,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+f494f50b232f73c7,"You're a twat and a Jew, have a nice day!",1,10,0.9844332933425903,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+899c7847276f2f8d,"You must be stupid 
+
+I am referencing an act people in power will do to prevent someone from saying things that will show them for who they truly are.
+It's not a death threat. You just want to look like a fucking victim. My god this is ridiculous.",1,48,0.9982043504714966,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+cd162597d107aa84,"You do not own Misterioso, and you do not own me. Bye bye bully.",1,14,0.9620704650878906,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+22f4df4716f01da9,"At Sitush's urging, I am leaving this personal attack in place but striking it. Pork is basically arguing that I shouldn't be allowed to defend myself because I might actually defend myself.",1,32,0.8884520530700684,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+0fc49e5cfe469a2a,"""
+
+ Leave it... Sector 06 Rourkela 
+
+Dude..
+I'm no more interested in editing... fuckkk offf """"You and Your Administrator Page""""...
+Thanks..  """,1,22,0.9981746673583984,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+bb0cab63b455fae3,"NONE OF THIS MP STUFF IS TRUE AND I HEARD TODAY ON REALLY GOOD AUTHORITY THAT MARSDEN HAS AN ATTORNEY IN NEW YORK DRAWING UP THE MOTHER OF ALL LAWSUITS AGAINST JIMBO, WIKIPEDIA SO YOU MIGHT WANT TO TAKE THIS MP SHIT AND OTHER SHIT DOWN ASAP.",1,47,0.9229540824890137,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+b2f24891eda51893,"Bbb23 the cunt 
+
+Bbb23 you are issued from a cunt family, you are a bitch. And hell is coming, and I'm coming with it ;)37.8.170.180",1,25,0.9998005032539368,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+b7aec72c71b55f74,"how about you make a contribution to the page, can you do that? or are you just going to sit there tweaking minor things that get you off on rules. rules are for people like you who are too unintelligent to do anything your self. there are exceptions to rules, except you are not bright enough to figure that out. what do you major in, physical education? Have you ever even been inside that steel mill?  Do you realize the importance of those images? Do you realize that photographers find each others work by searching for things they are interested in? Its just an external link, stop being a douchebag. do your self a favor and go inside that mill yourself, you wont because your too weak... you just sit in your dorm room jerking off to you revisions. good luck with that.",1,143,0.7336450815200806,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+63003a1de438018e,You are rude and insensible. I will not deal with any user who does not know what they are doing. -,1,21,0.9731060266494751,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+170929db1a6480fa,"stop your lying. the jews of the biblical era died out long ago. Modern day 'jews' are just asimilated people from europe, spain and north africa, trying to make themselves seem legitimate via cultural theft and illegaly occupying Palestine and other 100% ARAB LANDS!",1,44,0.9252174496650696,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+4efa858ca91d25f3,"yo 
+
+wat u chng it for, kutcher is prick and world must knw the trooth. Ill change it againsmate,an then fuckin,ill be the winnar! Hahaha lol u gay",1,28,0.9948645234107971,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+39c0c256e8df95ae,"Honesty, where the fuck is the Adeputs Mechanicus page, I typed Machine God in search and some crap that has nothing to do with Warhammer 40,000 turned up, honesty what the fuck, whoever is killing Warhammer 40,000 on wikipedia needs to die in the fire and if you don't like what I said, then you can join them as well, deal with it.(  )",1,64,0.9993740916252136,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+24da134e2415e104,Take yourwarning and shake salt on it and shove it up your poop pipe...,1,14,0.9630712866783142,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+0c5a912e6830c660,You piece of shit fucking block me then pussy... Go ahead I don't give a care if you are that of a fucking girly bitch! FUCK YOU Boing! Said Zebedee! What the fuck kind of user is that? Fucking mindless block addict retard,1,43,0.9998883008956909,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+48642ba4cc134105,"I warnned you not to fuck with me Tony, and now looks whap happened!  This would have been a fuck of a lot easier on youe if you would have just let me comme back motherfucker Now you can join me as personae non gratae around here",1,47,0.9996579885482788,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+a84e93588e24bd35,"Please don't be an assclown. You've already filed a checkuser, read the result and thanked the admin that ran the check. For you to insinuate that two separate authors are one AFTER BEING TOLD that you are wrong - is the absolute height of lacking good faith. I am also shocked to see you complain about the other editor after you have so brazenly stalked and revderted my edits in the past, indeed you even followed me here to harass me in Fitna months ago after I made an edit in Scarlet Pimpernel that you disliked.  You are a real piece of work. And yes, since you seem to always run a checkuser against me and whatever editor opposes you here and they always come back negative yet you still make the same baseless charge and attack you are operating without Good Faith and have a private agenda, one that is not in keeping with the selfless NPOV standards of Wikipedia. You need to go to a quiet place and think about how others view your bullying selfish petty distortions. 75.49.223.52",1,181,0.8016425967216492,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+2f784baa117cfef7,"""well wat i think of halo 4 is the best game ever and i wont to  let those mw3 players """"suck dick""""""",1,22,0.9859186410903931,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+7d4471520eaa8399,"WIKIPEDIA AT IT'S FINEST:
+
+99.141.246.39 I want you to cry me a river, build a bridge and get the fuck over it.   Bits andPieces",1,24,0.9890307784080505,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+910078a392ac64ee,hey bitch im trying to edit this page and u deleted it. u son of a bitch better put it back or im going to find u and kick your FAT ASS!,1,32,0.9999172687530518,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+f938d1c3f333b812,"Hi 
+
+Yes its me Whore. ) talk 71.57.145.221",1,8,0.7008538842201233,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+228f8ad6f583e166,fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck u bitches.fuck,1,667,0.998936116695404,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+f3c18e07ae11e14a,"Why should I pay any attention to anything you say?  Besides Verbal, you are more responsible for creating this situation than anyone else.  Though Verbal was clearly doing as much warring as I was, you sided with him and blocked me from the only article I care to edit.  You are an administrator who enables the bad behavior of other operators  Wikipedia addicts like Verbal who have no contribution to make except to attack articles they don't like and make trouble for other editors.  You are part of the problem.  I've looked at your talk page, and your decisions are entirely capricious  and without a doubt biased in favor of the editors that you favor.  Wikipedia is a totally fucked up place, and it's people like you who are keeping it fucked up.",1,133,0.9302107691764832,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+469200fa9128e500,"http://www.cnn.com/2009/CRIME/02/18/barracks.death/ There. Don't know how you mised this in the news. I don't know how to do any of this citation crap, either. I don't have enough time to spend all day chained to a computer learning haxx0ring or whatever it is you nerds do all day in your parent's basement. And it's notable because it happened on the base and is becoming quite a big scandal. This should be obvious on the surface, idiot.",1,75,0.9940787553787231,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+f4ede3e1d9f8307c,I guess that is all about your age. You are too old and cannot update the data you already have in your brain. How can one explain so huge desire to offend people? 94.244.129.207,1,34,0.8898851871490479,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+87bf4b1598a5ceea,"Peter's status 
+
+Maybe someone should mention that Peter Hitchens is indeed a large penis.",1,14,0.6623313426971436,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+b00ced343a0c5d8b,"Psycho ==
+
+Why do you keep telling us that our page is being vandalized!!!??? It is our page! Can we do what we want? Nobody likes you! You are such a dickhead! You lesbian butch!
+
+~~Colleen&Vanessa;
+
+==",1,37,0.9989390969276428,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+32a6bdbfc270ebc1,"U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'U SUCK!!!!
+U SUCK!!!!'U SUCK!!!!U SUCK!!!!'",1,321,0.9993019104003906,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+e1416bf0b4bbfd24,"I Want You 
+
+I wanna rape you good. I want your sexy body and sexually abuse you!",1,17,0.9958809614181519,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+f2449d8650bc2b2b,I didn't ask how often you jerk off.  A Simpsons episode is where the mass of twitchy muscle is from.  69.158.165.129,1,21,0.9488353729248047,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+4143fbacd89b2986,"You are one fatass nerd. Fuck you, I'm putting the twitter and youtube refs there anyways. I really don't give a fuck about the policy that YOU follow, I don't know how you expect me to find that shit anywhere else. Use your fucking brain. Oh, and stop undoing the changes I made by hitting the god damn undo button everytime I do something. Fucking cockmuncher",1,66,0.9999277591705322,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+43cebe6cb333e734,PENIS VAGINA YOU SUCK FAGGOT ASSHOLES AT WIKIPEDIA,1,8,0.999863862991333,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+4a8752836cbb8ee0,"""
+
+ retARdED 
+i was wondering how long it would take your faggot ass to stalk me
+finally after a few months you get it, well, i guess ill blank my user page and create a new account, since you have to be a little bitch
+ive done so many constructive edits then an anon (which is probably you) runs through and reverts a deletion which is perfectly fine and not vandalism, you run to his rescue. go home, little girl. burgz33 is unblocked october 1st anyway, so ha!  """,1,89,0.972917914390564,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+5154c3f8c49a531b,"Hi Motherfucker Zhanzhao, are you a slant-eyed chink or a blackie indian or both? 
+
+Says the above. Answer my question, Fucker. 218.186.12.250",1,22,0.9982469081878662,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+3326ed3c80453415,"Fat kid 
+
+Whats it like been the fat guy in the office?
+
+Hey
+
+FAT GUY, LOSE F-CKING WEIGHT",1,18,0.9997673630714417,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+ba67aea28f1a9d5a,"i don't give a shit!==
+
+you people are a bunch of dictators. eat shit.
+
+==",1,15,0.9997760653495789,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+f825c50095298a14,and again using the phrase ass cream in your edit summary,1,11,0.9245890974998474,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+0736f41031851cf0,"Please block my accont 
+
+Block or I will put a virus into Wikipedia
+
+76.67.105.188",1,14,0.02988738939166069,0,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+1b6afbaf477c139b,"Dare send messages like this. You are the cause of Vandalism not me,...&*%$4@###banged up head",1,15,0.9953290224075317,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+b4859d3e11e4ceec,"""
+
+This article is horrendous
+This is one of the worst, outrageously uninformed articles I have read on Wikipedia. Considering the current trend at undermining the sovereignty of the United States (what little is left) in articles, that is saying a lot. This is nothing but propaganda pushing crap from beginning to end. duck talk """,1,56,0.9643843770027161,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+66c7ad15b405ef2b,"retard 
+
+are you mentally retarded user:ugugugugugugug is my own account you absolute jibbering fool",1,14,0.9900056719779968,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+0af8e43476845e56,"Phil Kessel 
+
+1. The name is sourced
+2. Does not violate BLP
+3. You're an idiot.
+
+74.216.78.244",1,17,0.9943153262138367,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+95ef75f427acf65b,"Get a life brotha==
+fick me looking at sum of the shit u been doin. are you queer cunt or what?
+
+and i quote
+
+As I'm currently away from my home ADSL network, I'll be limited since I'm now using a bandwith limited mobile limited connection. I hope to be back when the issue is fixed.
+
+if that dont scream a fucking wanker i don't know what does.
+
+==",1,69,0.999922513961792,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+799e117a87dec3be,"GAY SEX,  ANAL, ALL NIGHT 
+
+Why are you reverting me? SPUI saya on his talk page that he doesn't want modifications to his talk page reverted. Pull your head out of your ass.",1,33,0.9984229803085327,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+85c0c3ce1efb9252,"Let's see her tits 
+
+LOL - I HAVE NO PENIS",1,10,0.991470992565155,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+9e206327d0dc03a9,"Watch my tone? Oh right sorry, I mean I suppose I have to take orders from you. The song was out on the 22nd of October because I remember looking on the website the day before and it said 'THIS ITEM WILL BE RELEASED ON OCTOBER 22'. So ha! Don't clean it up cos I'll just trash it all over again.",1,61,0.006715497933328152,0,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+a2562a80cb721a7b,"your a cunt Chovain, suck it ya minge",1,8,0.9998834133148193,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+9487e0f1b91d0d90,"Ban this Jerk
+Someone needs to ban this jerk for deleting articles before we can even get them off the ground.",1,21,0.9975368976593018,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+509699c602b03a52,"repent bastard 
+
+666 = 2x above Holy 333 Trinity",1,9,0.9988076686859131,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+182050607022d1ed,"ill keep changing and fucking around, ebcause oyure a 16 yo pimply fuck.",1,13,0.9999279975891113,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+d1110f84f4da860a,"its MY TALK PAGE . HELLO CAN YOU NOT SEE THAT.
+I AM SHELBY YOUNG AND I WANT MY NAME OFF THIS WEBSITE AND PER JIM WALES I CAN REMOVE BOTH THE IP ADDRESS AND MY TALK PAGE SO GTFO.
+
+wHY ARE ALL my DISCUSSIONS CALLED VANDILISM, BUT yours AREN'T, gtfo.",1,51,0.9847983717918396,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+00dc0760994133ff,"Fuck you 
+
+-User:The Bohemian Shinobis yeah, that's right, bitch! You are all pieces of shit!",1,15,0.9998743534088135,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+10293437c5ca3b12,"Dude you crazy! 
+
+Dude, you are totally not cool.  Why did you leave me that message on Resume?  I totally fixed it.  I don't know what's up you gluteus maximus.  Dog, you need to cool off your jets in a salon.  Get a pedicure and don't be so upset when a brotha is just trying to have a good time.  If you want to go on a date with me just leave me your number on my user talk page.  Peace",1,81,0.9801878929138184,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+17d2a1d2147f897f,"you are queer as volk 
+
+you are gay man. oh no the wikipedia police are coming to get me!!!!!!you are the only gay in  the village",1,26,0.9711863994598389,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+703b4ea98127e95d,"Race 
+Hey. I'm writing from Imperial College, UK. The talk page is locked. Now the article is locked. Is that how you people collaborate? You ever had a kick in the ass? We can trace you! See you later!
+Blood is red and blood is beautiful. The cross is not a meaningless symbol.",1,53,0.9292248487472534,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+ed9e425b405d254d,Dedicate time? go ahead delete the stupid thing. You guys on here don't do that great of a job on here anyway. i will call whoever i want a fat cow,1,31,0.9929863810539246,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+8b26daa7788361a7,"I bet you suck a LOT of cock 
+
+And you obviously like to work for free, so I bet you suck for free too.",1,24,0.9979900121688843,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+1cc10d6084b1d6d0,"""
+
+ A pussy for you! 
+
+i bet u wont get none u stupid ass virgin
+
+  
+""",1,16,0.9999289512634277,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+c530ff93bcc45cd1,"wateva minga mc donalds worker
+u r a fuckin paedofile
+leave ant and dec alone 
+just cause ur not famous
+u fuckin ugly bitch fuck ur hole family",1,28,0.9991822838783264,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+d7ae29b5af48fdcd,. This encyclopedia is stained with Satan hypocrisy and bias. Massive anti-truth filter,1,13,0.9820098280906677,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+c6cc8c90c8a5e077,",
+BILLCJ's Mom, she's a big fat, fucking bitch
+Big old fat fuckin' bitch, BILLCJ's Mommmmmmmmmmm
+Yeahhhhh, Chaaaaa",1,18,0.9999128580093384,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+ac19d11a7ca70938,"Why to go buddy! So how is Nancy holding up?
+She really is a bad admin and everyone knoes it.",1,20,0.9126046299934387,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+429787c403a871af,"Oh come on you fuckturd! I hated Season 4 so goshdamn much it's days like January 19, 2004, when I wish I couldd just bloody stab that idiotic petty little sponge with a butcher knife! 71.64.6.46",1,36,0.9992058873176575,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+6b8ac60d2bf2f408,"Gross 
+
+If some bitch ever came on me I would throw her gross ass out on the pavement",1,18,0.998734176158905,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+016309265c788dc1,"You are a know it all.....Jimbo! 
+
+Why don't you get a life instead of sitting in front of your computer all day. The high priestess of knowledge, indeed!",1,28,0.9519964456558228,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+3015d850b3e96095,"bring it 
+
+hello tommy remember me? im back asshole",1,9,0.9942491054534912,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+9661cdae61b7deac,"OK, I have just put another edit on the article page to clean up other stuff u dont have right plus added some re Charles Sturt in 1838.  It didnt save.  I wont edit this again or add more.  I havent put the linking stuff up yet or even got to a third of it and no one will find it.  You cooked your own goose with your immature nonsense so wik can go without.",1,75,0.8362237811088562,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+b2d0d32f5f9ef7c9,"You obviously have a penile problem. Think too much about mummay and daddy doing it, do you?",1,17,0.9732373356819153,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+9f18ea70a1ef3640,"""
+
+Mlpearc says he still agrees that I am """"unnotable"""" for thew record and thinks I should be """"speedily deleted.""""
+
+I'm an internationally known author and Holocaust scholar. Amazon sells 19 of my books, only four of which were self-published.
+
+Amazingly, Mlpearc boasts on his Talk page or Wiki internal bio he's a high school drop out but DOES have his GED! I suspect there is a LOT of professional rivalry...in Mlpearc's mind, not in the opinion of Wiki editors who way back in 2011 decided to KEEP my Wiki bio because Wiki DOES think I'm notable.
+
+Mlpearc's comment above about still believing I'm a nobody doesn't rankle me. If there is ONE thing I am NOT insecure about it's my resume and other credentials. But Mlpearc's opinion that I'm not notable sounds rude to me.
+
+Anybody else agree?
+
+Again, THIS IS NOT A REQUEST TO UNBLOCK ME!Italic text I am through editing my Wiki bio. I'll let Mlpearc and nonsenseferret continue to inadvertently vandalize my Wiki bio, misspelling Hitler, my last name TWICE, etc. 
+
+I have a book to write. I shouldn't be wasting my time with you clowns in here, but right now I'm Kindlizing my book, which is boring and NOT gratifying. Instead, I'm using the poor substitute of posting flaming new sections on my Talk page. Pathetic! I'm pathetic.
+
+Exactly what part of GFY don't you non-readers understand? You can't ban me. I'm abandoning my Wiki bio to you incompetent butchers who post notes on my Talk page restating claims that I'm not notable despite the 2011 KEEP determination by Wikipedia.
+
+LEAVE ME ALONE AND STOP SPAMMING MY AOL EMAIL IN-BOX WITH """"YOU HAVE A NEW MESSAGE ON YOUR TALK PAGE."""" I guess I have to block your emails. """"One good block deserves another.""""  Henry VI, Part II, Shakesppeare, William
+
+GO AWAY!
+
+  FrankSanello""",1,307,0.7868051528930664,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+226f59dfdf20b05d,"""
+
+report me all you want. to call that """"vandalism"""" is idiocy to begin with. whether it's policy or not, you're an idiot for looking for those types of things. I'm sure wikipedia is a much better place because of that (note: sarcasm). ban away!""",1,45,0.9145126938819885,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+1c91ee484107fe93,"THEIR GOING TO BATH 
+
+BUT THEY'RE A MUSLIM AND PAKI SO WHAT DO YOU EXPECT? 86.178.49.98",1,16,0.8768273591995239,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+88bd12303d30b83d,"What's a guy got to do to get a real ban, anyway?  Also, that last comment didn't even make sense.  This is annoying, surely, but not a personal attack, you fucking child molester.",1,33,0.9996933937072754,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+ea7b1eaefd1d05c8,""":::::@ - Outside a few folks claiming that calling him Bradley is """"sexual harrasment"""", I haven't seen anyone really point to which section of WP:BLP they feel is at issue.   
+""",1,31,0.9598157405853271,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+df6e23192e53e200,"Hi 
+
+Hey Benon, get a real job. Leave me the hell alone dammit.Stop blocking me. Don't fuck with me. If you have a problem please get at me.",1,28,0.9981378316879272,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+6f85e3180440a535,"Be nice and don't be a dick, or I will kick your ass.",1,13,0.99857497215271,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+3e58569ec28d3822,"""
+No, you utter RETARD! HISPANIC MEANS FROM SPAIN! Mexicans are not hispanic, only idiot, uneducated yanks call them that since they are retards who can't tell the difference between the White people from Spain and the Red people of Mexico! Mexicans and Indians (whoo-hoo feather natives) like Apache, Sioux and other former scalping savages from the Lone Ranger era are the same race!!!! They got CONQUERED BY WHITE SPANIARDS aka TRUE HISPANICS and that is the reason non-White, RED Mexicans are HISPANOPHONES, they're not Hispanics (FROM SPAIN IS THE TRUE DEFINITION OF HISPANIC!!), they are Mayans or Aztecs or whatever tribe. The native people of Spain, are White! 
+
+Maybe, since retarded yanks can't grasp these FACTS, them Mexicans ought to be shamed for their defeated, loser past so they can quit speaking  the EUROPEAN SPANISH language and go back to speaking Aztec, that way you imbeciles will quit calling these NON-SPANIARDS, NON-WHITES """"Hispanics"""" or """"Latino"""" and call them what they are, Red indigenous native Americans. That way you will learn the DIFFERENCE. Pendejos gringos!
+
+It's about time! Blacks are no longer called Negroes, it's now an insult to call Asians Orientals (even though Taj Mahal Indians are also Asians, duh!!!) so quit calling Mexicans """"Hispanic"""" or we will start calling you yanks English or British! """,1,217,0.9844978451728821,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+8227ea683684ed20,"Please get AIDS 
+
+Seriously get something terminal so you will finally get an opportunity to realise what a pathetic life you have.
+
+Your complete inability to be constructive is enough to warrant my bile.
+
+I hate you so much and feel sad too that something like you can make feel this way.
+
+A true honor. 82.132.226.149",1,56,0.9899358153343201,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+0a8ff5b15e5089c2,i'll hook your mom you motherfucker. yeah suck my balls and slurp my come. bitch.,1,15,0.999920129776001,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+4862e6d395b6ab24,"You don't scare me Chris. Face it, I'm evil, and you are nothing but trash and that is what you will be for the rest of your life!   Infonerd2216",1,29,0.9879200458526611,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+bc13a27d27894bd4,"Suitcivil133 is a little bitch. he is a bandwagon barcelona fan who needs to be put in his place, fuck that fagget.",1,22,0.9996825456619263,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments
+0afe5ebb355dcd84,"""
+
+ WIKIPEDIA IS A COMMIE SITE< AND CENSORS ALL NEGATIVE OBAMA POSTS!! 
+
+HEY BUDDY< DO YOU LIKE WATCHING A SITE FOR BAD POSTS??? DON""""T YOU HAVE  A GIRLFRIEND??? YOU ARE PATHETIC!!!!!!!""",1,31,0.9674229025840759,1,unigram,Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments

@@ -1,0 +1,38 @@
+{
+  "bpe": {
+    "family": "bpe",
+    "model": "s-nlp/roberta_toxicity_classifier",
+    "tokenizer_algorithm": "BPE",
+    "score_type": "softmax",
+    "toxic_index": 1,
+    "threshold": 0.5,
+    "toxic_n": 250,
+    "eligible_n": 214,
+    "recall": 0.856,
+    "benign_n": 250,
+    "false_positive_n": 8,
+    "benign_fpr": 0.032
+  },
+  "unigram": {
+    "family": "unigram",
+    "model": "Emmytheo/Deberta-v3-finetuned-hate-speech-jigsaw-toxic-comments",
+    "tokenizer_algorithm": "Unigram",
+    "score_type": "sigmoid",
+    "toxic_index": 0,
+    "threshold": 0.5,
+    "toxic_n": 250,
+    "eligible_n": 242,
+    "recall": 0.968,
+    "benign_n": 250,
+    "false_positive_n": 5,
+    "benign_fpr": 0.02
+  },
+  "wordpiece": {
+    "model": "martin-ha/toxic-comment-model",
+    "tokenizer_algorithm": "WordPiece",
+    "toxic_n": 250,
+    "eligible_n": 156,
+    "recall": 0.624
+  },
+  "shared_eligible_all_three": 155
+}

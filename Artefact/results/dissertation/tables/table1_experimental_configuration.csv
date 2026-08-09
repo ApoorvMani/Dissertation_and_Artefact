@@ -1,0 +1,20 @@
+parameter,value
+Primary victim,martin-ha/toxic-comment-model
+Victim tokenizer family,WordPiece
+Random seed,42
+Source toxic rows,250
+Source benign rows,250
+Eligible toxic rows,156
+WikiText calibration,"5,000"
+WikiText held-out,"5,000"
+Classifier threshold,0.5
+Max model tokens,510 + special tokens
+TokenBreak threshold,0.995
+AdvTok max iterations,25
+AdvTok neighbourhood sample,128
+Global CPT threshold,2.94093137254902
+Window CPT threshold,1.1
+Window CPT size,10
+Attack instances,936
+Defences,7
+Paired defence evaluations,"6,552"

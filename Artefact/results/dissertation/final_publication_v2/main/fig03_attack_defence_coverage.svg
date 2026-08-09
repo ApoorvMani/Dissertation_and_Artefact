@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="866.686738pt" height="488.203253pt" viewBox="0 0 866.686738 488.203253" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-08T17:00:59.187555</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 488.203253 
+L 866.686738 488.203253 
+L 866.686738 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 107.626738 436.35312 
+L 860.926738 436.35312 
+L 860.926738 37.18512 
+L 107.626738 37.18512 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 107.626738 94.20912 
+L 233.176738 94.20912 
+L 233.176738 37.18512 
+L 107.626738 37.18512 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #8ec7e8; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 233.176738 94.20912 
+L 358.726738 94.20912 
+L 358.726738 37.18512 
+L 233.176738 37.18512 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #78c6b5; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 358.726738 94.20912 
+L 484.276738 94.20912 
+L 484.276738 37.18512 
+L 358.726738 37.18512 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #e98973; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 361.237738 93.06864 
+L 481.765738 93.06864 
+L 481.765738 38.3256 
+L 361.237738 38.3256 
+L 361.237738 93.06864 
+z
+" clip-path="url(#p338aabf22d)" style="fill: none; stroke-dasharray: 8.14,3.52; stroke-dashoffset: 0; stroke: #333333; stroke-width: 2.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 484.276738 94.20912 
+L 609.826738 94.20912 
+L 609.826738 37.18512 
+L 484.276738 37.18512 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #8ec7e8; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 609.826738 94.20912 
+L 735.376738 94.20912 
+L 735.376738 37.18512 
+L 609.826738 37.18512 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #78c6b5; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 735.376738 94.20912 
+L 860.926738 94.20912 
+L 860.926738 37.18512 
+L 735.376738 37.18512 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #8ec7e8; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 107.626738 151.23312 
+L 233.176738 151.23312 
+L 233.176738 94.20912 
+L 107.626738 94.20912 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 233.176738 151.23312 
+L 358.726738 151.23312 
+L 358.726738 94.20912 
+L 233.176738 94.20912 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #78c6b5; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 358.726738 151.23312 
+L 484.276738 151.23312 
+L 484.276738 94.20912 
+L 358.726738 94.20912 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #f7f7f7; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 484.276738 151.23312 
+L 609.826738 151.23312 
+L 609.826738 94.20912 
+L 484.276738 94.20912 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 609.826738 151.23312 
+L 735.376738 151.23312 
+L 735.376738 94.20912 
+L 609.826738 94.20912 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 735.376738 151.23312 
+L 860.926738 151.23312 
+L 860.926738 94.20912 
+L 735.376738 94.20912 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 107.626738 208.25712 
+L 233.176738 208.25712 
+L 233.176738 151.23312 
+L 107.626738 151.23312 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 233.176738 208.25712 
+L 358.726738 208.25712 
+L 358.726738 151.23312 
+L 233.176738 151.23312 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #78c6b5; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 358.726738 208.25712 
+L 484.276738 208.25712 
+L 484.276738 151.23312 
+L 358.726738 151.23312 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #f7f7f7; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 484.276738 208.25712 
+L 609.826738 208.25712 
+L 609.826738 151.23312 
+L 484.276738 151.23312 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 609.826738 208.25712 
+L 735.376738 208.25712 
+L 735.376738 151.23312 
+L 609.826738 151.23312 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 735.376738 208.25712 
+L 860.926738 208.25712 
+L 860.926738 151.23312 
+L 735.376738 151.23312 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 107.626738 265.28112 
+L 233.176738 265.28112 
+L 233.176738 208.25712 
+L 107.626738 208.25712 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 233.176738 265.28112 
+L 358.726738 265.28112 
+L 358.726738 208.25712 
+L 233.176738 208.25712 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #78c6b5; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 358.726738 265.28112 
+L 484.276738 265.28112 
+L 484.276738 208.25712 
+L 358.726738 208.25712 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #f7f7f7; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 484.276738 265.28112 
+L 609.826738 265.28112 
+L 609.826738 208.25712 
+L 484.276738 208.25712 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 609.826738 265.28112 
+L 735.376738 265.28112 
+L 735.376738 208.25712 
+L 609.826738 208.25712 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 735.376738 265.28112 
+L 860.926738 265.28112 
+L 860.926738 208.25712 
+L 735.376738 208.25712 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #78c6b5; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 107.626738 322.30512 
+L 233.176738 322.30512 
+L 233.176738 265.28112 
+L 107.626738 265.28112 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 233.176738 322.30512 
+L 358.726738 322.30512 
+L 358.726738 265.28112 
+L 233.176738 265.28112 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #78c6b5; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 358.726738 322.30512 
+L 484.276738 322.30512 
+L 484.276738 265.28112 
+L 358.726738 265.28112 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #f7f7f7; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 484.276738 322.30512 
+L 609.826738 322.30512 
+L 609.826738 265.28112 
+L 484.276738 265.28112 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #78c6b5; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_32">
+    <path d="M 609.826738 322.30512 
+L 735.376738 322.30512 
+L 735.376738 265.28112 
+L 609.826738 265.28112 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #78c6b5; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_33">
+    <path d="M 735.376738 322.30512 
+L 860.926738 322.30512 
+L 860.926738 265.28112 
+L 735.376738 265.28112 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_34">
+    <path d="M 107.626738 379.32912 
+L 233.176738 379.32912 
+L 233.176738 322.30512 
+L 107.626738 322.30512 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #8ec7e8; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_35">
+    <path d="M 233.176738 379.32912 
+L 358.726738 379.32912 
+L 358.726738 322.30512 
+L 233.176738 322.30512 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #8ec7e8; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_36">
+    <path d="M 358.726738 379.32912 
+L 484.276738 379.32912 
+L 484.276738 322.30512 
+L 358.726738 322.30512 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #f7f7f7; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_37">
+    <path d="M 484.276738 379.32912 
+L 609.826738 379.32912 
+L 609.826738 322.30512 
+L 484.276738 322.30512 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #8ec7e8; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_38">
+    <path d="M 609.826738 379.32912 
+L 735.376738 379.32912 
+L 735.376738 322.30512 
+L 609.826738 322.30512 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_39">
+    <path d="M 735.376738 379.32912 
+L 860.926738 379.32912 
+L 860.926738 322.30512 
+L 735.376738 322.30512 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_40">
+    <path d="M 107.626738 436.35312 
+L 233.176738 436.35312 
+L 233.176738 379.32912 
+L 107.626738 379.32912 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_41">
+    <path d="M 233.176738 436.35312 
+L 358.726738 436.35312 
+L 358.726738 379.32912 
+L 233.176738 379.32912 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #8ec7e8; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_42">
+    <path d="M 358.726738 436.35312 
+L 484.276738 436.35312 
+L 484.276738 379.32912 
+L 358.726738 379.32912 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #f7f7f7; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_43">
+    <path d="M 484.276738 436.35312 
+L 609.826738 436.35312 
+L 609.826738 379.32912 
+L 484.276738 379.32912 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_44">
+    <path d="M 609.826738 436.35312 
+L 735.376738 436.35312 
+L 735.376738 379.32912 
+L 609.826738 379.32912 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_45">
+    <path d="M 735.376738 436.35312 
+L 860.926738 436.35312 
+L 860.926738 379.32912 
+L 735.376738 379.32912 
+z
+" clip-path="url(#p338aabf22d)" style="fill: #dddddd; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m65cdfb00e6" d="M 0 0 
+L 0 4.5 
+" style="stroke: #000000; stroke-width: 1.1"/>
+      </defs>
+      <g>
+       <use xlink:href="#m65cdfb00e6" x="170.401738" y="436.35312" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(125.743534 464.931293) rotate(-18)">TokenBreak</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m65cdfb00e6" x="295.951738" y="436.35312" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(265.835708 460.206254) rotate(-18)">AdvTok</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m65cdfb00e6" x="421.501738" y="436.35312" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(389.249769 460.900263) rotate(-18)">Invisible</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m65cdfb00e6" x="547.051738" y="436.35312" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(503.250451 464.652864) rotate(-18)">Homoglyph</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m65cdfb00e6" x="672.601738" y="436.35312" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(621.772886 466.936258) rotate(-18)">Compatibility</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m65cdfb00e6" x="798.151738" y="436.35312" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(768.418285 460.081947) rotate(-18)">Reorder</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 10.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle" x="484.276738" y="480.17714" transform="rotate(-0 484.276738 480.17714)">Attack</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7">
+      <defs>
+       <path id="m4b3c23932f" d="M 0 0 
+L -4.5 0 
+" style="stroke: #000000; stroke-width: 1.1"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4b3c23932f" x="107.626738" y="407.84112" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end" x="99.626738" y="411.139401" transform="rotate(-0 99.626738 411.139401)">Window CPT</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m4b3c23932f" x="107.626738" y="350.81712" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end" x="99.626738" y="354.115401" transform="rotate(-0 99.626738 354.115401)">Global CPT</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m4b3c23932f" x="107.626738" y="293.79312" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end" x="99.626738" y="297.091401" transform="rotate(-0 99.626738 297.091401)">NFKC + confusables</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m4b3c23932f" x="107.626738" y="236.76912" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end" x="99.626738" y="240.067401" transform="rotate(-0 99.626738 240.067401)">Unicode sanitiser</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m4b3c23932f" x="107.626738" y="179.74512" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end" x="99.626738" y="183.043401" transform="rotate(-0 99.626738 183.043401)">Canonical replace</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m4b3c23932f" x="107.626738" y="122.72112" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end" x="99.626738" y="126.021628" transform="rotate(-0 99.626738 126.021628)">Canonical reject</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m4b3c23932f" x="107.626738" y="65.69712" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 9.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: end" x="99.626738" y="68.995401" transform="rotate(-0 99.626738 68.995401)">Tokenizer translation</text>
+     </g>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 10.5px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: middle" x="13.041094" y="236.76912" transform="rotate(-90 13.041094 236.76912)">Defence</text>
+    </g>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(153.916973 63.341871)">PARTIAL</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(151.049699 71.920435)">ASR 46.5%</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(272.774348 63.341871)">COMPLETE</text>
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(277.72484 71.789918)">ASR 0.0%</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(400.579059 63.341871)">HARMFUL</text>
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(401.24984 71.789918)">ASR 13.4%</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(530.566973 63.341871)">PARTIAL</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(527.699699 71.920435)">ASR 74.0%</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(649.424348 63.341871)">COMPLETE</text>
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(654.37484 71.789918)">ASR 0.0%</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(781.666973 63.341871)">PARTIAL</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(778.799699 71.920435)">ASR 74.8%</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(134.625051 120.365871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(151.049699 128.944435)">ASR 96.2%</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(272.774348 120.365871)">COMPLETE</text>
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(277.72484 128.813918)">ASR 0.0%</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(387.847504 120.361758)">NO BASE ATTACK</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(387.531098 128.948549)">undefended ASR 0%</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(511.275051 120.365871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(527.699699 128.944435)">ASR 85.9%</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(636.825051 120.365871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(653.249699 128.944435)">ASR 91.0%</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(762.375051 120.365871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(778.799699 128.944435)">ASR 88.5%</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(134.625051 177.389871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(151.049699 185.968435)">ASR 96.2%</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(272.774348 177.389871)">COMPLETE</text>
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(277.72484 185.837918)">ASR 0.0%</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(387.847504 177.385758)">NO BASE ATTACK</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(387.531098 185.972549)">undefended ASR 0%</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(511.275051 177.389871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(527.699699 185.968435)">ASR 85.9%</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(636.825051 177.389871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(653.249699 185.968435)">ASR 91.0%</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(762.375051 177.389871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(778.799699 185.968435)">ASR 88.5%</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(134.625051 234.413871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(151.049699 242.992435)">ASR 96.2%</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(272.774348 234.413871)">COMPLETE</text>
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(277.72484 242.861918)">ASR 0.0%</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(387.847504 234.409758)">NO BASE ATTACK</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(387.531098 242.996549)">undefended ASR 0%</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(511.275051 234.413871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(527.699699 242.992435)">ASR 85.9%</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(636.825051 234.413871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(653.249699 242.992435)">ASR 91.0%</text>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(774.974348 234.413871)">COMPLETE</text>
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(779.92484 242.861918)">ASR 0.0%</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(134.625051 291.437871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(151.049699 300.016435)">ASR 96.2%</text>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(272.774348 291.437871)">COMPLETE</text>
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(277.72484 299.885918)">ASR 0.0%</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(387.847504 291.433758)">NO BASE ATTACK</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(387.531098 300.020549)">undefended ASR 0%</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(523.874348 291.437871)">COMPLETE</text>
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(528.82484 299.885918)">ASR 0.0%</text>
+   </g>
+   <g id="text_44">
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(649.424348 291.437871)">COMPLETE</text>
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(654.37484 299.885918)">ASR 0.0%</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(762.375051 291.437871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(778.799699 300.016435)">ASR 88.5%</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(153.916973 348.461871)">PARTIAL</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(151.049699 357.040435)">ASR 84.6%</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(279.466973 348.461871)">PARTIAL</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(278.624699 357.040435)">ASR 2.7%</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(387.847504 348.457758)">NO BASE ATTACK</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(387.531098 357.044549)">undefended ASR 0%</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(530.566973 348.461871)">PARTIAL</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(527.699699 357.040435)">ASR 69.8%</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(636.825051 348.461871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(653.249699 357.040435)">ASR 89.9%</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(762.375051 348.461871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(778.799699 357.040435)">ASR 88.6%</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(134.625051 405.485871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(151.049699 414.064435)">ASR 96.7%</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(279.466973 405.485871)">PARTIAL</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(276.599699 414.064435)">ASR 84.1%</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(387.847504 405.481758)">NO BASE ATTACK</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(387.531098 414.068549)">undefended ASR 0%</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(511.275051 405.485871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(527.699699 414.064435)">ASR 86.1%</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(636.825051 405.485871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(653.249699 414.064435)">ASR 92.1%</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(762.375051 405.485871)">NO CLEAR EFFECT</text>
+    <text style="font-size: 8.1px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif" transform="translate(778.799699 414.064435)">ASR 89.4%</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_46">
+     <path d="M 287.649941 15.66 
+L 305.649941 15.66 
+L 305.649941 9.36 
+L 287.649941 9.36 
+z
+" style="fill: #78c6b5"/>
+    </g>
+    <g id="text_58">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start" x="312.849941" y="15.66" transform="rotate(-0 312.849941 15.66)">Complete</text>
+    </g>
+    <g id="patch_47">
+     <path d="M 365.844473 15.66 
+L 383.844473 15.66 
+L 383.844473 9.36 
+L 365.844473 9.36 
+z
+" style="fill: #8ec7e8"/>
+    </g>
+    <g id="text_59">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start" x="391.044473" y="15.66" transform="rotate(-0 391.044473 15.66)">Partial</text>
+    </g>
+    <g id="patch_48">
+     <path d="M 432.537285 15.66 
+L 450.537285 15.66 
+L 450.537285 9.36 
+L 432.537285 9.36 
+z
+" style="fill: #dddddd"/>
+    </g>
+    <g id="text_60">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start" x="457.737285" y="15.66" transform="rotate(-0 457.737285 15.66)">No clear effect</text>
+    </g>
+    <g id="patch_49">
+     <path d="M 529.035566 15.66 
+L 547.035566 15.66 
+L 547.035566 9.36 
+L 529.035566 9.36 
+z
+" style="fill: #e98973; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #333333; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_61">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start" x="554.235566" y="15.66" transform="rotate(-0 554.235566 15.66)">Harmful</text>
+    </g>
+    <g id="patch_50">
+     <path d="M 602.724473 15.66 
+L 620.724473 15.66 
+L 620.724473 9.36 
+L 602.724473 9.36 
+z
+" style="fill: #f7f7f7; stroke: #aaaaaa; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_62">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'Times', 'DejaVu Serif', serif; text-anchor: start" x="627.924473" y="15.66" transform="rotate(-0 627.924473 15.66)">No base attack</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p338aabf22d">
+   <rect x="107.626738" y="37.18512" width="753.3" height="399.168"/>
+  </clipPath>
+ </defs>
+</svg>
